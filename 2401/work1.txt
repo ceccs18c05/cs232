@@ -1,0 +1,1037 @@
+Script started on Wednesday 01 January 2003 07:20:53 AM IST
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ ls
+abc.txt    file.txt  geek.txt~   report.txt   state.txt  t2.txt     work.txt
+filer.txt  geek.txt  output.txt  report.txt~  t1.txt     work1.txt
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ ;s -l
+bash: syntax error near unexpected token `;'
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ ;s -l[1P[1@l
+total 368
+-rw-rw-r-- 1 s4c1 s4c1     39 Jan  1 06:41 abc.txt
+-rw-rw-r-- 1 s4c1 s4c1     10 Jan  1 06:16 filer.txt
+-rw-rw-r-- 1 s4c1 s4c1     10 Jan  1 06:00 file.txt
+-rw-rw-r-- 1 s4c1 s4c1     48 Jan  1 06:34 geek.txt
+-rw-rw-r-- 1 s4c1 s4c1     28 Jan  1 06:33 geek.txt~
+-rw-rw-r-- 1 s4c1 s4c1     10 Jan  1 06:07 output.txt
+-rw-rw-r-- 1 s4c1 s4c1   4787 Jan  1 07:17 report.txt
+-rw-rw-r-- 1 s4c1 s4c1   4621 Jan  1 07:14 report.txt~
+-rw-rw-r-- 1 s4c1 s4c1     11 Jan  1 06:09 state.txt
+-rw-rw-r-- 1 s4c1 s4c1     11 Jan  1 06:38 t1.txt
+-rw-rw-r-- 1 s4c1 s4c1      9 Jan  1 06:38 t2.txt
+-rw-rw-r-- 1 s4c1 s4c1      0 Jan  1 07:20 work1.txt
+-rw-rw-r-- 1 s4c1 s4c1 320267 Jan  1 07:17 work.txt
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ ls -l;[C[C[C[C[3Plsexitscript work.txt[8Pcd 2401[3@mkdir[C[C[C[C[Cls[Kexitgedit report.txtls -l[K[Kgedit abc.txt[2@re[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Krep[K[K[Kgedit report
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ uname -v
+#57~precise1-Ubuntu SMP Tue Jul 15 03:50:54 UTC 2014
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ uname -vgedit report
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ gedit report[4Puname -vgedit report[4Puname -vgedit report.txt
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ gedit report.txt[C[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txts.txta.txtm.txtp.txtl.txte.txt
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ awk ’{print "\t" $0}’ roll.txt[1P.txt[1P.txt[1P.txt[1P.txts.txtm.txta.txtp.txtl.txte.txt[1Paple.txt[Cmple.txt
+awk: 1: unexpected character 0xe2
+awk: line 2: missing } near end of file
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ awk ’{print "\t" $0}’ sample.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgedit sample.txtreport.txtsample.txt
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ gedit sample.txt[Kgedit sample.txtreport.txt[K[K[K[K[K[K[K[K[K[K[K[K[K awk ’{print "\t" $0}’ sample.txt[C[1P
+awk: 1: unexpected character 0xe2
+awk: line 2: missing } near end of file
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ awk ’{print "\t" $0}’ sample.txt[16Pgedit[C[C[C[C[C[C[C[C[C[C[C
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ p fn[1@l[C[C[C[C[K[K[Ksa[K[K smap[K[K[Kample.txt
+lp: Error - no default destination available.
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ man lkp[K[K[Klp
+[?1049h[?1h=lp(1)                         Apple Inc.                         lp(1)[m
+[m
+[1mNAME[0m[m
+       lp - print files[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mlp[0m  [ -E ] [ -U [4musername[24m ] [ -c ] [ -d [4mdestination[/instance][24m ][m
+       [ -h  [4mhostname[:port][24m  ]  [  -m  ]  [  -n  [4mnum-copies[24m  ]  [  -o[m
+       [4moption[=value][24m  ] [ -q [4mpriority[24m ] [ -s ] [ -t [4mtitle[24m ] [ -H [4mhan‐[24m[m
+       [4mdling[24m ] [ -P [4mpage-list[24m ] [ -- ] [ [4mfile(s)[24m ][m
+       [1mlp[0m [ -E ] [ -U [4musername[24m ] [ -c ] [ -h [4mhostname[:port][24m  ]  [  -i[m
+       [4mjob-id[24m  ] [ -n [4mnum-copies[24m ] [ -o [4moption[=value][24m ] [ -q [4mpriority[24m[m
+       ] [ -t [4mtitle[24m ] [ -H [4mhandling[24m ] [ -P [4mpage-list[24m ][m
+[m
+[1mDESCRIPTION[0m[m
+       [4mlp[24m submits files for printing or alters a pending  job.  Use  a[m
+       filename of "-" to force printing from the standard input.[m
+[m
+[1mTHE[0m [1mDEFAULT[0m [1mDESTINATION[0m[m
+       CUPS  provides  many  ways  to set the default destination. The[m
+       "LPDEST" and  "PRINTER"  environment  variables  are  consulted[m
+       first.  If  neither  are set, the current default set using the[m
+       [4mlpoptions(1)[24m command is used, followed by the default set using[m
+[7m Manual page lp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       the [4mlpadmin(8)[24m command.[m
+[7m Manual page lp(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mOPTIONS[0m[m
+[7m Manual page lp(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The following options are recognized by [4mlp[24m:[m
+[7m Manual page lp(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       --[m
+[7m Manual page lp(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Marks  the  end of options; use this to print a file whose[m
+[7m Manual page lp(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            name begins with a dash (-).[m
+[7m Manual page lp(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -E[m
+[7m Manual page lp(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Forces encryption when connecting to the server.[m
+[7m Manual page lp(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -U username[m
+[7m Manual page lp(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Specifies the username  to  use  when  connecting  to  the[m
+[7m Manual page lp(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            server.[m
+[7m Manual page lp(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -c[m
+[7m Manual page lp(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            This  option is provided for backwards-compatibility only.[m
+[7m Manual page lp(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            On systems that support it, this option forces  the  print[m
+[7m Manual page lp(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            file  to be copied to the spool directory before printing.[m
+[7m Manual page lp(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            In CUPS, print files are always sent to the scheduler  via[m
+[7m Manual page lp(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       "LPDEST" and  "PRINTER"  environment  variables  are  consulted[m
+[24;1H[K[7m Manual page lp(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       CUPS  provides  many  ways  to set the default destination. The[m
+[24;1H[K[7m Manual page lp(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mTHE[0m [1mDEFAULT[0m [1mDESTINATION[0m[m
+[24;1H[K[7m Manual page lp(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       filename of "-" to force printing from the standard input.[m
+[24;1H[K[7m Manual page lp(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [4mlp[24m submits files for printing or alters a pending  job.  Use  a[m
+[24;1H[K[7m Manual page lp(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mDESCRIPTION[0m[m
+[24;1H[K[7m Manual page lp(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       ] [ -t [4mtitle[24m ] [ -H [4mhandling[24m ] [ -P [4mpage-list[24m ][m
+[24;1H[K[7m Manual page lp(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [4mjob-id[24m  ] [ -n [4mnum-copies[24m ] [ -o [4moption[=value][24m ] [ -q [4mpriority[24m[m
+[24;1H[K[7m Manual page lp(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mlp[0m [ -E ] [ -U [4musername[24m ] [ -c ] [ -h [4mhostname[:port][24m  ]  [  -i[m
+[24;1H[K[7m Manual page lp(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [4mdling[24m ] [ -P [4mpage-list[24m ] [ -- ] [ [4mfile(s)[24m ][m
+[24;1H[K[7m Manual page lp(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [4moption[=value][24m  ] [ -q [4mpriority[24m ] [ -s ] [ -t [4mtitle[24m ] [ -H [4mhan‐[24m[m
+[24;1H[K[7m Manual page lp(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [ -h  [4mhostname[:port][24m  ]  [  -m  ]  [  -n  [4mnum-copies[24m  ]  [  -o[m
+[24;1H[K[7m Manual page lp(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mlp[0m  [ -E ] [ -U [4musername[24m ] [ -c ] [ -d [4mdestination[/instance][24m ][m
+[24;1H[K[7m Manual page lp(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Marks  the  end of options; use this to print a file whose[m
+[7m Manual page lp(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            name begins with a dash (-).[m
+[7m Manual page lp(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -E[m
+[7m Manual page lp(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Forces encryption when connecting to the server.[m
+[7m Manual page lp(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -U username[m
+[7m Manual page lp(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Specifies the username  to  use  when  connecting  to  the[m
+[7m Manual page lp(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            server.[m
+[7m Manual page lp(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -c[m
+[7m Manual page lp(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            This  option is provided for backwards-compatibility only.[m
+[7m Manual page lp(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            On systems that support it, this option forces  the  print[m
+[7m Manual page lp(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            file  to be copied to the spool directory before printing.[m
+[7m Manual page lp(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            In CUPS, print files are always sent to the scheduler  via[m
+[7m Manual page lp(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            IPP which has the same effect.[m
+[7m Manual page lp(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -d destination[m
+[7m Manual page lp(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Prints files to the named printer.[m
+[7m Manual page lp(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -h hostname[:port][m
+[7m Manual page lp(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Chooses an alternate server.[m
+[7m Manual page lp(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -i job-id[m
+[7m Manual page lp(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Specifies an existing job to modify.[m
+[7m Manual page lp(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -m[m
+[7m Manual page lp(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Sends an email when the job is completed.[m
+[7m Manual page lp(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -n copies[m
+[7m Manual page lp(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Sets the number of copies to print from 1 to 100.[m
+[7m Manual page lp(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -o "name=value [name=value ...]"[m
+[7m Manual page lp(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Sets one or more job options.[m
+[7m Manual page lp(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -q priority[m
+[7m Manual page lp(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Sets  the  job  priority from 1 (lowest) to 100 (highest).[m
+[7m Manual page lp(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            The default priority is 50.[m
+[7m Manual page lp(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -s[m
+[7m Manual page lp(1) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Do not report the resulting job IDs (silent mode.)[m
+[7m Manual page lp(1) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -t "name"[m
+[7m Manual page lp(1) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Sets the job name.[m
+[7m Manual page lp(1) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -H hh:mm[m
+[7m Manual page lp(1) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -H hold[m
+[7m Manual page lp(1) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 58 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -H immediate[m
+[7m Manual page lp(1) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -H restart[m
+[7m Manual page lp(1) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -H resume[m
+[7m Manual page lp(1) line 63 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Specifies when the job should be printed. A value of [4mimme‐[24m[m
+[7m Manual page lp(1) line 64 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            [4mdiate[24m  will  print  the  file immediately, a value of [4mhold[24m[m
+[7m Manual page lp(1) line 65 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            will hold the job  indefinitely,  and  a  UTC  time  value[m
+[7m Manual page lp(1) line 66 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            (HH:MM)  will  hold  the  job until the specified UTC (not[m
+[7m Manual page lp(1) line 67 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            local) time. Use a value of [4mresume[24m with the [4m-i[24m  option  to[m
+[7m Manual page lp(1) line 68 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            resume  a  held  job.   Use a value of [4mrestart[24m with the [4m-i[24m[m
+[7m Manual page lp(1) line 69 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            option to restart a completed job.[m
+[7m Manual page lp(1) line 70 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 71 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -P page-list[m
+[7m Manual page lp(1) line 72 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Specifies which pages to print in the document.  The  list[m
+[7m Manual page lp(1) line 73 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            can  contain  a list of numbers and ranges (#-#) separated[m
+[7m Manual page lp(1) line 74 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            by commas (e.g. 1,3-5,16). The page numbers refer  to  the[m
+[7m Manual page lp(1) line 75 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            output  pages  and  not  the  document's  original pages -[m
+[7m Manual page lp(1) line 76 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            options like "number-up" can affect the numbering  of  the[m
+[7m Manual page lp(1) line 77 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            pages.[m
+[7m Manual page lp(1) line 78 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 79 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mCOMMON[0m [1mJOB[0m [1mOPTIONS[0m[m
+[7m Manual page lp(1) line 80 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Aside  from  the printer-specific options reported by the [4mlpop‐[24m[m
+[7m Manual page lp(1) line 81 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4mtions(1)[24m command, the following generic options are available:[m
+[7m Manual page lp(1) line 82 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 83 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -o media=size[m
+[7m Manual page lp(1) line 84 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Sets the page size to [4msize[24m. Most printers support at least[m
+[7m Manual page lp(1) line 85 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            the size names "a4", "letter", and "legal".[m
+[7m Manual page lp(1) line 86 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 87 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -o landscape[m
+[7m Manual page lp(1) line 88 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 89 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -o orientation-requested=4[m
+[7m Manual page lp(1) line 90 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Prints the job in landscape (rotated 90 degrees).[m
+[7m Manual page lp(1) line 91 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 92 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -o sides=one-sided[m
+[7m Manual page lp(1) line 93 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 94 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -o sides=two-sided-long-edge[m
+[7m Manual page lp(1) line 95 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 96 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -o sides=two-sided-short-edge[m
+[7m Manual page lp(1) line 97 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Prints  on  one or two sides of the paper. The value "two-[m
+[7m Manual page lp(1) line 98 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            sided-long-edge" is normally used when  printing  portrait[m
+[7m Manual page lp(1) line 99 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            (unrotated)  pages,  while  "two-sided-short-edge" is used[m
+[7m Manual page lp(1) line 100 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            for landscape pages.[m
+[7m Manual page lp(1) line 101 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 102 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -o fitplot[m
+[7m Manual page lp(1) line 103 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Scales the print file to fit on the page.[m
+[7m Manual page lp(1) line 104 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 105 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -o number-up=2[m
+[7m Manual page lp(1) line 106 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 107 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -o number-up=4[m
+[7m Manual page lp(1) line 108 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 109 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -o number-up=6[m
+[7m Manual page lp(1) line 110 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 111 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -o number-up=9[m
+[7m Manual page lp(1) line 112 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 113 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -o number-up=16[m
+[7m Manual page lp(1) line 114 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Prints multiple document pages on each output page.[m
+[7m Manual page lp(1) line 115 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 116 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -o scaling=number[m
+[7m Manual page lp(1) line 117 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Scales image files to use up  to  [4mnumber[24m  percent  of  the[m
+[7m Manual page lp(1) line 118 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            page.   Values greater than 100 cause the image file to be[m
+[7m Manual page lp(1) line 119 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            printed across multiple pages.[m
+[7m Manual page lp(1) line 120 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 121 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -o cpi=N[m
+[7m Manual page lp(1) line 122 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Sets the number of characters per inch to use when  print‐[m
+[7m Manual page lp(1) line 123 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            ing a text file. The default is 10.[m
+[7m Manual page lp(1) line 124 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 125 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -o lpi=N[m
+[7m Manual page lp(1) line 126 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Sets  the  number of lines per inch to use when printing a[m
+[7m Manual page lp(1) line 127 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            text file. The default is 6.[m
+[7m Manual page lp(1) line 128 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 129 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -o page-bottom=N[m
+[7m Manual page lp(1) line 130 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 131 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -o page-left=N[m
+[7m Manual page lp(1) line 132 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 133 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -o page-right=N[m
+[7m Manual page lp(1) line 134 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 135 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -o page-top=N[m
+[7m Manual page lp(1) line 136 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Sets the page margins when printing text files. The values[m
+[7m Manual page lp(1) line 137 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            are in points - there are 72 points to the inch.[m
+[7m Manual page lp(1) line 138 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 139 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mEXAMPLES[0m[m
+[7m Manual page lp(1) line 140 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Print a double-sided legal document to a printer called "foo":[m
+[7m Manual page lp(1) line 141 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           lp -d foo -o media=legal -o sides=two-sided-long-edge filenam[m [7m Manual page lp(1) line 142 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[Ke[m
+[7m Manual page lp(1) line 143 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 144 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Print an image across 4 pages:[m
+[7m Manual page lp(1) line 145 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           lp -d bar -o scaling=200 filename[m
+[7m Manual page lp(1) line 146 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 147 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Print  a  text  file  with  12 characters per inch, 8 lines per[m
+[7m Manual page lp(1) line 148 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       inch, and a 1 inch left margin:[m
+[7m Manual page lp(1) line 149 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           lp -d bar -o cpi=12 -o lpi=8 -o page-left=72 filename[m
+[7m Manual page lp(1) line 150 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 151 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mCOMPATIBILITY[0m[m
+[7m Manual page lp(1) line 152 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Unlike the System V printing system, CUPS allows printer  names[m
+[7m Manual page lp(1) line 153 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       to  contain  any printable character except SPACE, TAB, "/", or[m
+[7m Manual page lp(1) line 154 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       "#".  Also, printer and class names are [4mnot[24m case-sensitive.[m
+[7m Manual page lp(1) line 155 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 156 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The "q" option accepts a different range  of  values  than  the[m
+[7m Manual page lp(1) line 157 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Solaris  lp  command,  matching  the  IPP  job  priority values[m
+[7m Manual page lp(1) line 158 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       (1-100, 100 is highest priority) instead of the Solaris  values[m
+[7m Manual page lp(1) line 159 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       (0-39, 0 is highest priority).[m
+[7m Manual page lp(1) line 160 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 161 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mSEE[0m [1mALSO[0m[m
+[7m Manual page lp(1) line 162 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4mcancel(1)[24m, [4mlpadmin(8)[24m, [4mlpmove(8)[24m, [4mlpoptions(1)[24m, [4mlpstat(1)[24m,[m
+[7m Manual page lp(1) line 163 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       http://localhost:631/help[m
+[7m Manual page lp(1) line 164 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 164 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mCOPYRIGHT[0m[m
+[7m Manual page lp(1) line 165 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Copyright 2007-2011 by Apple Inc.[m
+[7m Manual page lp(1) line 166 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 167 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K3 October 2011                   CUPS                            lp(1)[m
+[7m Manual page lp(1) line 168 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page lp(1) line 168/192 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page lp(1) line 168/192 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page lp(1) line 168/192 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page lp(1) line 168/192 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page lp(1) line 168/192 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page lp(1) line 168/192 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page lp(1) line 168/192 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page lp(1) line 168/192 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page lp(1) line 168/192 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page lp(1) line 168/192 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page lp(1) line 168/192 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page lp(1) line 168/192 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page lp(1) line 168/192 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page lp(1) line 168/192 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page lp(1) line 168/192 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page lp(1) line 168/192 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page lp(1) line 168/192 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page lp(1) line 168/192 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page lp(1) line 168/192 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page lp(1) line 168/192 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page lp(1) line 168/192 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page lp(1) line 168/192 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page lp(1) line 168/192 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page lp(1) line 168/192 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page lp(1) line 168/192 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page lp(1) line 168/192 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page lp(1) line 168/192 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page lp(1) line 168/192 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page lp(1) line 168/192 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page lp(1) line 168/192 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page lp(1) line 168/192 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page lp(1) line 168/192 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page lp(1) line 168/192 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page lp(1) line 168/192 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page lp(1) line 168/192 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           lp -d bar -o scaling=200 filename[m
+[24;1H[K[7m Manual page lp(1) line 167/192 99% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Print an image across 4 pages:[m
+[24;1H[K[7m Manual page lp(1) line 166/192 99% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 165/192 98% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HMe[m
+[24;1H[K[7m Manual page lp(1) line 164/192 98% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           lp -d foo -o media=legal -o sides=two-sided-long-edge filenam[m[24;1H[K[7m Manual page lp(1) line 164/192 98% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Print a double-sided legal document to a printer called "foo":[m
+[24;1H[K[7m Manual page lp(1) line 163/192 98% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mEXAMPLES[0m[m
+[24;1H[K[7m Manual page lp(1) line 162/192 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 161/192 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            are in points - there are 72 points to the inch.[m
+[24;1H[K[7m Manual page lp(1) line 160/192 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            Sets the page margins when printing text files. The values[m
+[24;1H[K[7m Manual page lp(1) line 159/192 94% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -o page-top=N[m
+[24;1H[K[7m Manual page lp(1) line 158/192 93% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 157/192 92% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -o page-right=N[m
+[24;1H[K[7m Manual page lp(1) line 156/192 91% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 155/192 91% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -o page-left=N[m
+[24;1H[K[7m Manual page lp(1) line 154/192 90% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 153/192 89% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -o page-bottom=N[m
+[24;1H[K[7m Manual page lp(1) line 152/192 88% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 151/192 88% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            text file. The default is 6.[m
+[24;1H[K[7m Manual page lp(1) line 150/192 88% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            Sets  the  number of lines per inch to use when printing a[m
+[24;1H[K[7m Manual page lp(1) line 149/192 87% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -o lpi=N[m
+[24;1H[K[7m Manual page lp(1) line 148/192 86% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 147/192 85% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            ing a text file. The default is 10.[m
+[24;1H[K[7m Manual page lp(1) line 146/192 85% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            Sets the number of characters per inch to use when  print‐[m
+[24;1H[K[7m Manual page lp(1) line 145/192 85% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -o cpi=N[m
+[24;1H[K[7m Manual page lp(1) line 144/192 84% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 143/192 84% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            printed across multiple pages.[m
+[24;1H[K[7m Manual page lp(1) line 142/192 84% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            page.   Values greater than 100 cause the image file to be[m
+[24;1H[K[7m Manual page lp(1) line 141/192 83% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            Scales image files to use up  to  [4mnumber[24m  percent  of  the[m
+[24;1H[K[7m Manual page lp(1) line 140/192 82% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -o scaling=number[m
+[24;1H[K[7m Manual page lp(1) line 139/192 82% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 138/192 82% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            Prints multiple document pages on each output page.[m
+[24;1H[K[7m Manual page lp(1) line 137/192 81% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -o number-up=16[m
+[24;1H[K[7m Manual page lp(1) line 136/192 80% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 135/192 80% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -o number-up=9[m
+[24;1H[K[7m Manual page lp(1) line 134/192 80% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 133/192 79% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -o number-up=6[m
+[24;1H[K[7m Manual page lp(1) line 132/192 79% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 131/192 79% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -o number-up=4[m
+[24;1H[K[7m Manual page lp(1) line 130/192 79% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 129/192 79% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -o number-up=2[m
+[24;1H[K[7m Manual page lp(1) line 128/192 79% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 127/192 78% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            Scales the print file to fit on the page.[m
+[24;1H[K[7m Manual page lp(1) line 126/192 77% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -o fitplot[m
+[24;1H[K[7m Manual page lp(1) line 125/192 77% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 124/192 77% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            for landscape pages.[m
+[24;1H[K[7m Manual page lp(1) line 123/192 76% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            (unrotated)  pages,  while  "two-sided-short-edge" is used[m
+[24;1H[K[7m Manual page lp(1) line 122/192 75% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            sided-long-edge" is normally used when  printing  portrait[m
+[24;1H[K[7m Manual page lp(1) line 121/192 75% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            Prints  on  one or two sides of the paper. The value "two-[m
+[24;1H[K[7m Manual page lp(1) line 120/192 75% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -o sides=two-sided-short-edge[m
+[24;1H[K[7m Manual page lp(1) line 119/192 74% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 118/192 73% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -o sides=two-sided-long-edge[m
+[24;1H[K[7m Manual page lp(1) line 117/192 72% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 116/192 72% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -o sides=one-sided[m
+[24;1H[K[7m Manual page lp(1) line 115/192 72% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 114/192 71% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            Prints the job in landscape (rotated 90 degrees).[m
+[24;1H[K[7m Manual page lp(1) line 113/192 70% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -o orientation-requested=4[m
+[24;1H[K[7m Manual page lp(1) line 112/192 70% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 111/192 70% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -o landscape[m
+[24;1H[K[7m Manual page lp(1) line 110/192 70% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 109/192 70% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            the size names "a4", "letter", and "legal".[m
+[24;1H[K[7m Manual page lp(1) line 108/192 70% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            Sets the page size to [4msize[24m. Most printers support at least[m
+[24;1H[K[7m Manual page lp(1) line 107/192 70% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -o media=size[m
+[24;1H[K[7m Manual page lp(1) line 106/192 70% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 105/192 69% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [4mtions(1)[24m command, the following generic options are available:[m
+[24;1H[K[7m Manual page lp(1) line 104/192 69% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Aside  from  the printer-specific options reported by the [4mlpop‐[24m[m
+[24;1H[K[7m Manual page lp(1) line 103/192 68% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mCOMMON[0m [1mJOB[0m [1mOPTIONS[0m[m
+[24;1H[K[7m Manual page lp(1) line 102/192 68% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 101/192 68% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            pages.[m
+[24;1H[K[7m Manual page lp(1) line 100/192 68% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            options like "number-up" can affect the numbering  of  the[m
+[24;1H[K[7m Manual page lp(1) line 99/192 67% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            output  pages  and  not  the  document's  original pages -[m
+[24;1H[K[7m Manual page lp(1) line 98/192 66% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            by commas (e.g. 1,3-5,16). The page numbers refer  to  the[m
+[24;1H[K[7m Manual page lp(1) line 97/192 65% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            can  contain  a list of numbers and ranges (#-#) separated[m
+[24;1H[K[7m Manual page lp(1) line 96/192 64% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            Specifies which pages to print in the document.  The  list[m
+[24;1H[K[7m Manual page lp(1) line 95/192 64% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -P page-list[m
+[24;1H[K[7m Manual page lp(1) line 94/192 64% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 93/192 64% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            option to restart a completed job.[m
+[24;1H[K[7m Manual page lp(1) line 92/192 63% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            resume  a  held  job.   Use a value of [4mrestart[24m with the [4m-i[24m[m
+[24;1H[K[7m Manual page lp(1) line 91/192 63% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            local) time. Use a value of [4mresume[24m with the [4m-i[24m  option  to[m
+[24;1H[K[7m Manual page lp(1) line 90/192 62% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            (HH:MM)  will  hold  the  job until the specified UTC (not[m
+[24;1H[K[7m Manual page lp(1) line 89/192 62% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            will hold the job  indefinitely,  and  a  UTC  time  value[m
+[24;1H[K[7m Manual page lp(1) line 88/192 62% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            [4mdiate[24m  will  print  the  file immediately, a value of [4mhold[24m[m
+[24;1H[K[7m Manual page lp(1) line 87/192 62% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            Specifies when the job should be printed. A value of [4mimme‐[24m[m
+[24;1H[K[7m Manual page lp(1) line 86/192 62% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -H resume[m
+[24;1H[K[7m Manual page lp(1) line 85/192 61% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 84/192 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -H restart[m
+[24;1H[K[7m Manual page lp(1) line 83/192 59% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 82/192 59% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -H immediate[m
+[24;1H[K[7m Manual page lp(1) line 81/192 58% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 80/192 57% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -H hold[m
+[24;1H[K[7m Manual page lp(1) line 79/192 56% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 78/192 56% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -H hh:mm[m
+[24;1H[K[7m Manual page lp(1) line 77/192 56% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 76/192 55% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            Sets the job name.[m
+[24;1H[K[7m Manual page lp(1) line 75/192 54% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -t "name"[m
+[24;1H[K[7m Manual page lp(1) line 74/192 53% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 73/192 52% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            Do not report the resulting job IDs (silent mode.)[m
+[24;1H[K[7m Manual page lp(1) line 72/192 51% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -s[m
+[24;1H[K[7m Manual page lp(1) line 71/192 51% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 70/192 51% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            The default priority is 50.[m
+[24;1H[K[7m Manual page lp(1) line 69/192 50% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            Sets  the  job  priority from 1 (lowest) to 100 (highest).[m
+[24;1H[K[7m Manual page lp(1) line 68/192 49% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -q priority[m
+[24;1H[K[7m Manual page lp(1) line 67/192 48% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 66/192 47% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            Sets one or more job options.[m
+[24;1H[K[7m Manual page lp(1) line 65/192 46% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -o "name=value [name=value ...]"[m
+[24;1H[K[7m Manual page lp(1) line 64/192 44% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 63/192 43% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            Sets the number of copies to print from 1 to 100.[m
+[24;1H[K[7m Manual page lp(1) line 62/192 43% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -n copies[m
+[24;1H[K[7m Manual page lp(1) line 61/192 43% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 60/192 43% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            Sends an email when the job is completed.[m
+[24;1H[K[7m Manual page lp(1) line 59/192 43% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -m[m
+[24;1H[K[7m Manual page lp(1) line 58/192 42% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 57/192 42% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            Specifies an existing job to modify.[m
+[24;1H[K[7m Manual page lp(1) line 56/192 42% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -i job-id[m
+[24;1H[K[7m Manual page lp(1) line 55/192 42% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 54/192 42% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            Chooses an alternate server.[m
+[24;1H[K[7m Manual page lp(1) line 53/192 42% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -h hostname[:port][m
+[24;1H[K[7m Manual page lp(1) line 52/192 42% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 51/192 41% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            Prints files to the named printer.[m
+[24;1H[K[7m Manual page lp(1) line 50/192 41% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -d destination[m
+[24;1H[K[7m Manual page lp(1) line 49/192 40% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 48/192 40% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            IPP which has the same effect.[m
+[24;1H[K[7m Manual page lp(1) line 47/192 40% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            In CUPS, print files are always sent to the scheduler  via[m
+[24;1H[K[7m Manual page lp(1) line 46/192 40% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            file  to be copied to the spool directory before printing.[m
+[24;1H[K[7m Manual page lp(1) line 45/192 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            On systems that support it, this option forces  the  print[m
+[24;1H[K[7m Manual page lp(1) line 44/192 38% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            This  option is provided for backwards-compatibility only.[m
+[24;1H[K[7m Manual page lp(1) line 43/192 38% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -c[m
+[24;1H[K[7m Manual page lp(1) line 42/192 38% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 41/192 37% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            server.[m
+[24;1H[K[7m Manual page lp(1) line 40/192 37% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            Specifies the username  to  use  when  connecting  to  the[m
+[24;1H[K[7m Manual page lp(1) line 39/192 36% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -U username[m
+[24;1H[K[7m Manual page lp(1) line 38/192 36% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 37/192 36% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            Forces encryption when connecting to the server.[m
+[24;1H[K[7m Manual page lp(1) line 36/192 35% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -E[m
+[24;1H[K[7m Manual page lp(1) line 35/192 35% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 34/192 35% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            name begins with a dash (-).[m
+[24;1H[K[7m Manual page lp(1) line 33/192 35% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            Marks  the  end of options; use this to print a file whose[m
+[24;1H[K[7m Manual page lp(1) line 32/192 34% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       --[m
+[24;1H[K[7m Manual page lp(1) line 31/192 34% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 30/192 34% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       The following options are recognized by [4mlp[24m:[m
+[24;1H[K[7m Manual page lp(1) line 29/192 33% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mOPTIONS[0m[m
+[24;1H[K[7m Manual page lp(1) line 28/192 33% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 27/192 33% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       the [4mlpadmin(8)[24m command.[m
+[24;1H[K[7m Manual page lp(1) line 26/192 32% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [4mlpoptions(1)[24m command is used, followed by the default set using[m
+[24;1H[K[7m Manual page lp(1) line 25/192 32% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       first.  If  neither  are set, the current default set using the[m
+[24;1H[K[7m Manual page lp(1) line 24/192 32% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       "LPDEST" and  "PRINTER"  environment  variables  are  consulted[m
+[24;1H[K[7m Manual page lp(1) line 23/192 31% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       CUPS  provides  many  ways  to set the default destination. The[m
+[24;1H[K[7m Manual page lp(1) line 22/192 30% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mTHE[0m [1mDEFAULT[0m [1mDESTINATION[0m[m
+[24;1H[K[7m Manual page lp(1) line 21/192 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 20/192 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       filename of "-" to force printing from the standard input.[m
+[24;1H[K[7m Manual page lp(1) line 19/192 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [4mlp[24m submits files for printing or alters a pending  job.  Use  a[m
+[24;1H[K[7m Manual page lp(1) line 18/192 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mDESCRIPTION[0m[m
+[24;1H[K[7m Manual page lp(1) line 17/192 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 16/192 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       ] [ -t [4mtitle[24m ] [ -H [4mhandling[24m ] [ -P [4mpage-list[24m ][m
+[24;1H[K[7m Manual page lp(1) line 15/192 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [4mjob-id[24m  ] [ -n [4mnum-copies[24m ] [ -o [4moption[=value][24m ] [ -q [4mpriority[24m[m
+[24;1H[K[7m Manual page lp(1) line 14/192 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mlp[0m [ -E ] [ -U [4musername[24m ] [ -c ] [ -h [4mhostname[:port][24m  ]  [  -i[m
+[24;1H[K[7m Manual page lp(1) line 13/192 25% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [4mdling[24m ] [ -P [4mpage-list[24m ] [ -- ] [ [4mfile(s)[24m ][m
+[24;1H[K[7m Manual page lp(1) line 12/192 25% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [4moption[=value][24m  ] [ -q [4mpriority[24m ] [ -s ] [ -t [4mtitle[24m ] [ -H [4mhan‐[24m[m
+[24;1H[K[7m Manual page lp(1) line 11/192 25% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [ -h  [4mhostname[:port][24m  ]  [  -m  ]  [  -n  [4mnum-copies[24m  ]  [  -o[m
+[24;1H[K[7m Manual page lp(1) line 10/192 25% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mlp[0m  [ -E ] [ -U [4musername[24m ] [ -c ] [ -d [4mdestination[/instance][24m ][m
+[24;1H[K[7m Manual page lp(1) line 9/192 24% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mSYNOPSIS[0m[m
+[24;1H[K[7m Manual page lp(1) line 8/192 23% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 7/192 23% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       lp - print files[m
+[24;1H[K[7m Manual page lp(1) line 6/192 23% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mNAME[0m[m
+[24;1H[K[7m Manual page lp(1) line 5/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 4/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HMlp(1)                         Apple Inc.                         lp(1)[m
+[24;1H[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       the [4mlpadmin(8)[24m command.[m
+[7m Manual page lp(1) line 4/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 5/192 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mOPTIONS[0m[m
+[7m Manual page lp(1) line 6/192 23% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The following options are recognized by [4mlp[24m:[m
+[7m Manual page lp(1) line 7/192 23% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 8/192 23% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       --[m
+[7m Manual page lp(1) line 9/192 24% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Marks  the  end of options; use this to print a file whose[m
+[7m Manual page lp(1) line 10/192 25% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            name begins with a dash (-).[m
+[7m Manual page lp(1) line 11/192 25% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 12/192 25% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -E[m
+[7m Manual page lp(1) line 13/192 25% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Forces encryption when connecting to the server.[m
+[7m Manual page lp(1) line 14/192 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 15/192 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -U username[m
+[7m Manual page lp(1) line 16/192 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Specifies the username  to  use  when  connecting  to  the[m
+[7m Manual page lp(1) line 17/192 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            server.[m
+[7m Manual page lp(1) line 18/192 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 19/192 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -c[m
+[7m Manual page lp(1) line 20/192 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            This  option is provided for backwards-compatibility only.[m
+[7m Manual page lp(1) line 21/192 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            On systems that support it, this option forces  the  print[m
+[7m Manual page lp(1) line 22/192 30% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            file  to be copied to the spool directory before printing.[m
+[7m Manual page lp(1) line 23/192 31% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            In CUPS, print files are always sent to the scheduler  via[m
+[7m Manual page lp(1) line 24/192 32% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            IPP which has the same effect.[m
+[7m Manual page lp(1) line 25/192 32% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 26/192 32% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -d destination[m
+[7m Manual page lp(1) line 27/192 33% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Prints files to the named printer.[m
+[7m Manual page lp(1) line 28/192 33% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 29/192 33% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -h hostname[:port][m
+[7m Manual page lp(1) line 30/192 34% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Chooses an alternate server.[m
+[7m Manual page lp(1) line 31/192 34% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 32/192 34% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -i job-id[m
+[7m Manual page lp(1) line 33/192 35% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Specifies an existing job to modify.[m
+[7m Manual page lp(1) line 34/192 35% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 35/192 35% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -m[m
+[7m Manual page lp(1) line 36/192 35% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Sends an email when the job is completed.[m
+[7m Manual page lp(1) line 37/192 36% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 38/192 36% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -n copies[m
+[7m Manual page lp(1) line 39/192 36% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Sets the number of copies to print from 1 to 100.[m
+[7m Manual page lp(1) line 40/192 37% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 41/192 37% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -o "name=value [name=value ...]"[m
+[7m Manual page lp(1) line 42/192 38% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Sets one or more job options.[m
+[7m Manual page lp(1) line 43/192 38% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 44/192 38% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -q priority[m
+[7m Manual page lp(1) line 45/192 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Sets  the  job  priority from 1 (lowest) to 100 (highest).[m
+[7m Manual page lp(1) line 46/192 40% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            The default priority is 50.[m
+[7m Manual page lp(1) line 47/192 40% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 48/192 40% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -s[m
+[7m Manual page lp(1) line 49/192 40% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Do not report the resulting job IDs (silent mode.)[m
+[7m Manual page lp(1) line 50/192 41% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 51/192 41% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -t "name"[m
+[7m Manual page lp(1) line 52/192 42% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Sets the job name.[m
+[7m Manual page lp(1) line 53/192 42% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 54/192 42% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -H hh:mm[m
+[7m Manual page lp(1) line 55/192 42% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 56/192 42% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -H hold[m
+[7m Manual page lp(1) line 57/192 42% (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ lp -o[Ko smao[K[K[Kamol[K[Kpe[Kle.txt
+lp: Error - no default destination available.
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ c[Kclear
+[H[2J]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ clear[K[K[K[K[Kgrep ’^-’ cs.4.rank.txt[C[C[C[C[C[1Prank.txt[1Prank.txt[1Prank.txt[1Prank.txt[1Prank.txt[C[C[C[C[1P.txt[1P.txt[1P.txt[1P.txtS.txtA.txt,.txtM.txt[1P.txt[1P.txt[1P.txt[1P.txts.txtm.txta.txto.txt[1P.txt[1P.txta.txtm.txt[1P.txt[1P.txt[1P.txta.txtm.txtp.txtl.txte.txt[1P[1P[1@j[1P[1@h[C[C[C[C[C[C[C[C[C[C[C[C
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ grep ’h’ sample.txtclear[K[K[K[K[K[Kgrep ’^-’ cs.4.rank.txt[1P.txt[1P.txt[1P.txt[1P.txts.txta.txtm.txtp.txtl.txt;.txte.txt[1P.txt[1P.txte.txt
+grep: cs.4.sample.txt: No such file or directory
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ grep ’^-’ cs.4.sample.txt[6Ph’ sample.txt^-’ cs.4.sample.txt[1Psample.txt[1Psample.txt[1Psample.txt[1Pample.txt[1Psample.txt
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ xc[K[Kclar[K[Keaer
+cNo command 'cleaer' found, did you mean:
+ Command 'clear' from package 'ncurses-bin' (main)
+cleaer: command not found
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ cc[Klear
+[H[2J]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ uname 0s[K[K[K-s
+uname-s: command not found
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ uname-s e-s[1Pe-s[C -s
+Linux
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ awk ’{s+=$1} END {print s}’ file[C[C[C[K[K[K[Kfiler,[K.txt [K[A]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ awk ’{s+=$1} END {print s}’ filer.txt[K]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ awk ’{s+=$1} END {print s}’ filer.txt
+awk: 1: unexpected character 0xe2
+awk: line 1: syntax error at or near }
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ [K]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ awk ’{s+=$1} END {print s}’ filer.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cuname -s[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[Kgedit sampl[K[K[K[K[Kfiler.txt
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ gedit filer.txtawk ’{s+=$1} END {print s}’ filer.txt [A
+awk: 1: unexpected character 0xe2
+awk: line 1: syntax error at or near }
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ clear
+[H[2J]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ who
+lab2     tty7         2003-01-01 07:18
+s4c1     pts/1        2003-01-01 07:19 (:1.0)
+s4c1     tty8         2003-01-01 07:19
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ who -a
+           system boot  2003-01-01 05:30
+           run-level 2  2003-01-01 05:30
+LOGIN      tty4         2003-01-01 05:30               921 id=4
+LOGIN      tty5         2003-01-01 05:30               927 id=5
+LOGIN      tty2         2003-01-01 05:30               937 id=2
+LOGIN      tty3         2003-01-01 05:30               939 id=3
+LOGIN      tty6         2003-01-01 05:30               942 id=6
+LOGIN      tty1         2003-01-01 05:30              1197 id=1
+lab2     + tty7         2003-01-01 07:18  old         5646
+s4c1     + pts/1        2003-01-01 07:19   .          6826 (:1.0)
+           pts/3        2003-01-01 05:59                 0 id=/3    term=0 exit=0
+           pts/4        2003-01-01 07:27                 0 id=/4    term=0 exit=0
+           pts/5        2003-01-01 07:27                 0 id=/5    term=0 exit=0
+s4c1     + tty8         2003-01-01 07:19  old         6518
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ who [Kami [K
+s4c1
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ id
+uid=1009(s4c1) gid=1009(s4c1) groups=1009(s4c1)
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ id- i[Ku
+No command 'id-' found, did you mean:
+ Command 'id3' from package 'id3' (universe)
+ Command 'idn' from package 'idn' (universe)
+ Command 'id' from package 'coreutils' (main)
+id-: command not found
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ id- u[1@ [C[C[1Pu
+1009
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ id -un
+s4c1
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ last
+s4c1     pts/5        :1.0             Wed Jan  1 07:25 - 07:27  (00:01)    
+s4c1     pts/4        :1.0             Wed Jan  1 07:22 - 07:27  (00:05)    
+s4c1     pts/1        :1.0             Wed Jan  1 07:19   still logged in   
+lab2     pts/1        :0               Wed Jan  1 07:18 - 07:19  (00:00)    
+s4c1     pts/5        :0.0             Wed Jan  1 06:57 - 07:17  (00:19)    
+s4c1     pts/5        :0.0             Wed Jan  1 06:44 - 06:44  (00:00)    
+s4c1     pts/4        :0.0             Wed Jan  1 05:57 - 07:17  (01:20)    
+s4c1     pts/3        :0.0             Wed Jan  1 05:55 - 05:59  (00:03)    
+s4c1     pts/1        :0.0             Wed Jan  1 05:50 - 07:17  (01:27)    
+admin1   pts/1        :0.0             Wed Jan  1 05:47 - 05:49  (00:02)    
+guest-xF pts/1        :0.0             Wed Jan  1 05:45 - 05:45  (00:00)    
+reboot   system boot  3.13.0-32-generi Wed Jan  1 05:30 - 07:45  (02:14)    
+helen    pts/0        :0               Wed Jan  1 07:55 - 07:57  (00:02)    
+helen    pts/0        :0               Wed Jan  1 07:53 - 07:54  (00:01)    
+helen    pts/0        :0               Wed Jan  1 07:49 - 07:53  (00:03)    
+helen    pts/0        :0               Wed Jan  1 07:13 - 07:49  (00:35)    
+admin1   pts/0        :0               Wed Jan  1 06:04 - 06:20  (00:15)    
+reboot   system boot  3.13.0-32-generi Wed Jan  1 05:52 - 07:59  (02:07)    
+s6c2     pts/5        :1               Wed Jan 22 15:17 - 15:17  (00:00)    
+s6c2     pts/5        :1               Wed Jan 22 15:17 - 15:17  (00:00)    
+s6c2     pts/4        :1               Wed Jan 22 14:44 - crash (-6230+-8:-5
+lab2     pts/4        :1               Wed Jan 22 14:12 - 14:14  (00:01)    
+lab2     pts/4        :1               Wed Jan 22 13:31 - 14:12  (00:40)    
+admin1   pts/2        :0               Wed Jan  1 05:37 - crash  (00:14)    
+admin1   pts/0        :0               Wed Jan  1 05:34 - crash  (00:18)    
+reboot   system boot  3.13.0-32-generi Wed Jan  1 05:30 - 07:59  (02:29)    
+admin1   pts/0        :2               Wed Jan  1 07:34 - 07:36  (00:01)    
+admin1   pts/0        :2               Wed Jan  1 07:31 - 07:33  (00:01)    
+admin1   pts/1        :2               Wed Jan  1 07:04 - 07:04  (00:00)    
+admin1   pts/0        :2               Wed Jan  1 07:04 - 07:28  (00:23)    
+admin1   pts/0        :2               Wed Jan  1 06:57 - 06:59  (00:02)    
+admin1   pts/0        :2               Wed Jan  1 06:56 - 06:57  (00:01)    
+lab2     pts/1        :1               Wed Jan  1 06:53 - 06:54  (00:00)    
+s4d      pts/1        :2               Wed Jan  1 06:53 - 06:53  (00:00)    
+s4d      pts/1        :2               Wed Jan  1 06:29 - 06:29  (00:00)    
+s4d      pts/0        :2               Wed Jan  1 06:29 - 06:55  (00:25)    
+s4d      pts/0        :2               Wed Jan  1 06:28 - 06:29  (00:00)    
+lab2     pts/0        :1               Wed Jan  1 05:59 - 06:00  (00:00)    
+lab2     pts/0        :1               Wed Jan  1 05:58 - 05:59  (00:00)    
+guest-cm pts/0        :0               Wed Jan  1 05:31 - 05:42  (00:10)    
+reboot   system boot  3.13.0-32-generi Wed Jan  1 05:30 - 07:59  (02:29)    
+lab2     pts/0        :0               Tue Jan 21 11:41 - 11:49  (00:08)    
+lab2     pts/0        :0               Tue Jan 21 11:33 - 11:37  (00:03)    
+reboot   system boot  3.13.0-32-generi Wed Jan  1 05:31 - 11:49 (20+06:17)  
+lab2     pts/0        :0               Mon Jan 20 16:11 - 16:16  (00:05)    
+lab2     pts/0        :0.0             Mon Jan 20 16:07 - 16:09  (00:02)    
+lab2     pts/0        :0               Mon Jan 20 14:43 - 15:58  (01:14)    
+reboot   system boot  3.13.0-32-generi Wed Jan  1 05:30 - 16:30 (6228+10:59)
+
+wtmp begins Mon Jan 20 11:57:38 2020
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ last -n9
+s4c1     pts/5        :1.0             Wed Jan  1 07:25 - 07:27  (00:01)    
+s4c1     pts/4        :1.0             Wed Jan  1 07:22 - 07:27  (00:05)    
+s4c1     pts/1        :1.0             Wed Jan  1 07:19   still logged in   
+lab2     pts/1        :0               Wed Jan  1 07:18 - 07:19  (00:00)    
+s4c1     pts/5        :0.0             Wed Jan  1 06:57 - 07:17  (00:19)    
+s4c1     pts/5        :0.0             Wed Jan  1 06:44 - 06:44  (00:00)    
+s4c1     pts/4        :0.0             Wed Jan  1 05:57 - 07:17  (01:20)    
+s4c1     pts/3        :0.0             Wed Jan  1 05:55 - 05:59  (00:03)    
+s4c1     pts/1        :0.0             Wed Jan  1 05:50 - 07:17  (01:27)    
+
+wtmp begins Mon Jan 20 11:57:38 2020
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ lass[Kt I[Klpp
+
+wtmp begins Mon Jan 20 11:57:38 2020
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ claer[K[K[Kera[K[Kar[K[K[K[K[Kping
+Usage: ping [-LRUbdfnqrvVaAD] [-c count] [-i interval] [-w deadline]
+            [-p pattern] [-s packetsize] [-t ttl] [-I interface]
+            [-M pmtudisc-hint] [-m mark] [-S sndbuf]
+            [-T tstamp-options] [-Q tos] [hop1 ...] destination
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ ls
+abc.txt     file.txt   output.txt   sample.txt   t1.txt     work.txt
+filer.txt   geek.txt   report.txt   sample.txt~  t2.txt
+filer.txt~  geek.txt~  report.txt~  state.txt    work1.txt
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ join r.t1.txt r.t2.txt
+join: r.t1.txt: No such file or directory
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ join r.t1.txt r.t2.txt[1P[1P[1P[1P[1@p[1@a[1@s[1@t[1@r[1P[1@e
+paste: r.t1.txt: No such file or directory
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ paste r.t1.txt r.t2.txt[1P[1P[1P[1P[1P[1@j[1@o[1@i[1@n[C[C[1P[C[1P[C[C[C[C[C[C[C[C[C[1Pt2.txt[1Pt2.txt[C[C[C[C[C[C
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ join t1.txt t2.txt[1P[1P[1P[1P[1@p[1@a[1@s[1@t[1@e
+helloworld	byeworld
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ paste t1.txt t2.txt[C[C[C[C[C[C[K[K[K[K[K[K[K[1P[C[1P t1.txt[1P t1.txt[1P t1.txt[1P t1.txtg t1.txte t1.txtd t1.txti t1.txtt t1.txt
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ gedit t1.txtpaste t1.txt t2.txt[1Pjoin[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpaste r.t1.txt r.t2.txt[1Pjoin[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgeid[Kd[K[K[Kdit [K[K[K[K[Ke[Kgedit repro[K[Kort.txt
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ [K]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ [K]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ [K]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ grep ’^-’ cs.4.rank.txt[C[1P[1@h[C[C[C[C[C[C[C[C[C[C[C[1P.txt[1P.txt[1P.txt[1P.txt[1Ptxt[1P.txt[1Ptxt[1P.txt[1P.txt[C .txtt .txt1 .txt[C[1P.txt[C[C[C[C
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ grep ’^h’ t1.txt[1@p[1@r[1@i[1@n[1@t[1@ 
+Warning: unknown mime-type for "grep" -- using "application/octet-stream"
+Warning: unknown mime-type for "’^h’" -- using "application/octet-stream"
+Error: no such file "grep"
+Error: no such file "’^h’"
+Error: no "print" mailcap rules found for type "text/plain"
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ print grep ’^h’ t1.txt[6P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ grep ’^h’ t1.txt.t1.txtct1.txtst1.txt.t1.txt4t1.txt.t1.txt
+grep: .cs.4.t1.txt: No such file or directory
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ grep ’^h’ .cs.4.t1.txt[1Pcs.4.t1.txt
+grep: cs.4.t1.txt: No such file or directory
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ clear
+[H[2J]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ man lp
+[?1049h[?1h=lp(1)                         Apple Inc.                         lp(1)[m
+[m
+[1mNAME[0m[m
+       lp - print files[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mlp[0m  [ -E ] [ -U [4musername[24m ] [ -c ] [ -d [4mdestination[/instance][24m ][m
+       [ -h  [4mhostname[:port][24m  ]  [  -m  ]  [  -n  [4mnum-copies[24m  ]  [  -o[m
+       [4moption[=value][24m  ] [ -q [4mpriority[24m ] [ -s ] [ -t [4mtitle[24m ] [ -H [4mhan‐[24m[m
+       [4mdling[24m ] [ -P [4mpage-list[24m ] [ -- ] [ [4mfile(s)[24m ][m
+       [1mlp[0m [ -E ] [ -U [4musername[24m ] [ -c ] [ -h [4mhostname[:port][24m  ]  [  -i[m
+       [4mjob-id[24m  ] [ -n [4mnum-copies[24m ] [ -o [4moption[=value][24m ] [ -q [4mpriority[24m[m
+       ] [ -t [4mtitle[24m ] [ -H [4mhandling[24m ] [ -P [4mpage-list[24m ][m
+[m
+[1mDESCRIPTION[0m[m
+       [4mlp[24m submits files for printing or alters a pending  job.  Use  a[m
+       filename of "-" to force printing from the standard input.[m
+[m
+[1mTHE[0m [1mDEFAULT[0m [1mDESTINATION[0m[m
+       CUPS  provides  many  ways  to set the default destination. The[m
+       "LPDEST" and  "PRINTER"  environment  variables  are  consulted[m
+       first.  If  neither  are set, the current default set using the[m
+       [4mlpoptions(1)[24m command is used, followed by the default set using[m
+[7m Manual page lp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       the [4mlpadmin(8)[24m command.[m
+[7m Manual page lp(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mOPTIONS[0m[m
+[7m Manual page lp(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The following options are recognized by [4mlp[24m:[m
+[7m Manual page lp(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       --[m
+[7m Manual page lp(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Marks  the  end of options; use this to print a file whose[m
+[7m Manual page lp(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            name begins with a dash (-).[m
+[7m Manual page lp(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -E[m
+[7m Manual page lp(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Forces encryption when connecting to the server.[m
+[7m Manual page lp(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -U username[m
+[7m Manual page lp(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Specifies the username  to  use  when  connecting  to  the[m
+[7m Manual page lp(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            server.[m
+[7m Manual page lp(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -c[m
+[7m Manual page lp(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            This  option is provided for backwards-compatibility only.[m
+[7m Manual page lp(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            On systems that support it, this option forces  the  print[m
+[7m Manual page lp(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            file  to be copied to the spool directory before printing.[m
+[7m Manual page lp(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            In CUPS, print files are always sent to the scheduler  via[m
+[7m Manual page lp(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            IPP which has the same effect.[m
+[7m Manual page lp(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -d destination[m
+[7m Manual page lp(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Prints files to the named printer.[m
+[7m Manual page lp(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -h hostname[:port][m
+[7m Manual page lp(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Chooses an alternate server.[m
+[7m Manual page lp(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -i job-id[m
+[7m Manual page lp(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Specifies an existing job to modify.[m
+[7m Manual page lp(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -m[m
+[7m Manual page lp(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Sends an email when the job is completed.[m
+[7m Manual page lp(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -n copies[m
+[7m Manual page lp(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Sets the number of copies to print from 1 to 100.[m
+[7m Manual page lp(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -o "name=value [name=value ...]"[m
+[7m Manual page lp(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Sets one or more job options.[m
+[7m Manual page lp(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -q priority[m
+[7m Manual page lp(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Sets  the  job  priority from 1 (lowest) to 100 (highest).[m
+[7m Manual page lp(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            The default priority is 50.[m
+[7m Manual page lp(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -s[m
+[7m Manual page lp(1) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Do not report the resulting job IDs (silent mode.)[m
+[7m Manual page lp(1) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -t "name"[m
+[7m Manual page lp(1) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Sets the job name.[m
+[7m Manual page lp(1) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -H hh:mm[m
+[7m Manual page lp(1) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -H hold[m
+[7m Manual page lp(1) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 58 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -H immediate[m
+[7m Manual page lp(1) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -H restart[m
+[7m Manual page lp(1) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -H resume[m
+[7m Manual page lp(1) line 63 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            Sets the number of copies to print from 1 to 100.[m
+[24;1H[K[7m Manual page lp(1) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -n copies[m
+[24;1H[K[7m Manual page lp(1) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            Sends an email when the job is completed.[m
+[24;1H[K[7m Manual page lp(1) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -m[m
+[24;1H[K[7m Manual page lp(1) line 58 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            Specifies an existing job to modify.[m
+[24;1H[K[7m Manual page lp(1) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -i job-id[m
+[24;1H[K[7m Manual page lp(1) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            Chooses an alternate server.[m
+[24;1H[K[7m Manual page lp(1) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -h hostname[:port][m
+[24;1H[K[7m Manual page lp(1) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            Prints files to the named printer.[m
+[24;1H[K[7m Manual page lp(1) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -d destination[m
+[24;1H[K[7m Manual page lp(1) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            IPP which has the same effect.[m
+[24;1H[K[7m Manual page lp(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            In CUPS, print files are always sent to the scheduler  via[m
+[24;1H[K[7m Manual page lp(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            file  to be copied to the spool directory before printing.[m
+[24;1H[K[7m Manual page lp(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            On systems that support it, this option forces  the  print[m
+[24;1H[K[7m Manual page lp(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            This  option is provided for backwards-compatibility only.[m
+[24;1H[K[7m Manual page lp(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -c[m
+[24;1H[K[7m Manual page lp(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            server.[m
+[24;1H[K[7m Manual page lp(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            Specifies the username  to  use  when  connecting  to  the[m
+[24;1H[K[7m Manual page lp(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -U username[m
+[24;1H[K[7m Manual page lp(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            Forces encryption when connecting to the server.[m
+[24;1H[K[7m Manual page lp(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       -E[m
+[24;1H[K[7m Manual page lp(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            name begins with a dash (-).[m
+[24;1H[K[7m Manual page lp(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM            Marks  the  end of options; use this to print a file whose[m
+[24;1H[K[7m Manual page lp(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       --[m
+[24;1H[K[7m Manual page lp(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       The following options are recognized by [4mlp[24m:[m
+[24;1H[K[7m Manual page lp(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mOPTIONS[0m[m
+[24;1H[K[7m Manual page lp(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       the [4mlpadmin(8)[24m command.[m
+[24;1H[K[7m Manual page lp(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [4mlpoptions(1)[24m command is used, followed by the default set using[m
+[24;1H[K[7m Manual page lp(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       first.  If  neither  are set, the current default set using the[m
+[24;1H[K[7m Manual page lp(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       "LPDEST" and  "PRINTER"  environment  variables  are  consulted[m
+[24;1H[K[7m Manual page lp(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       CUPS  provides  many  ways  to set the default destination. The[m
+[24;1H[K[7m Manual page lp(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mTHE[0m [1mDEFAULT[0m [1mDESTINATION[0m[m
+[24;1H[K[7m Manual page lp(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       filename of "-" to force printing from the standard input.[m
+[24;1H[K[7m Manual page lp(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [4mlp[24m submits files for printing or alters a pending  job.  Use  a[m
+[24;1H[K[7m Manual page lp(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mDESCRIPTION[0m[m
+[24;1H[K[7m Manual page lp(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       ] [ -t [4mtitle[24m ] [ -H [4mhandling[24m ] [ -P [4mpage-list[24m ][m
+[24;1H[K[7m Manual page lp(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [4mjob-id[24m  ] [ -n [4mnum-copies[24m ] [ -o [4moption[=value][24m ] [ -q [4mpriority[24m[m
+[24;1H[K[7m Manual page lp(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mlp[0m [ -E ] [ -U [4musername[24m ] [ -c ] [ -h [4mhostname[:port][24m  ]  [  -i[m
+[24;1H[K[7m Manual page lp(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [4mdling[24m ] [ -P [4mpage-list[24m ] [ -- ] [ [4mfile(s)[24m ][m
+[24;1H[K[7m Manual page lp(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [4moption[=value][24m  ] [ -q [4mpriority[24m ] [ -s ] [ -t [4mtitle[24m ] [ -H [4mhan‐[24m[m
+[24;1H[K[7m Manual page lp(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [ -h  [4mhostname[:port][24m  ]  [  -m  ]  [  -n  [4mnum-copies[24m  ]  [  -o[m
+[24;1H[K[7m Manual page lp(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mlp[0m  [ -E ] [ -U [4musername[24m ] [ -c ] [ -d [4mdestination[/instance][24m ][m
+[24;1H[K[7m Manual page lp(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mSYNOPSIS[0m[m
+[24;1H[K[7m Manual page lp(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       lp - print files[m
+[24;1H[K[7m Manual page lp(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mNAME[0m[m
+[24;1H[K[7m Manual page lp(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HMlp(1)                         Apple Inc.                         lp(1)[m
+[24;1H[K[7m Manual page lp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       the [4mlpadmin(8)[24m command.[m
+[7m Manual page lp(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mOPTIONS[0m[m
+[7m Manual page lp(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The following options are recognized by [4mlp[24m:[m
+[7m Manual page lp(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page lp(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       --[m
+[7m Manual page lp(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mSYNOPSIS[0m[m
+[24;1H[K[7m Manual page lp(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       lp - print files[m
+[24;1H[K[7m Manual page lp(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mNAME[0m[m
+[24;1H[K[7m Manual page lp(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page lp(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HMlp(1)                         Apple Inc.                         lp(1)[m
+[24;1H[K[7m Manual page lp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page lp(1) line 1 (press h for help or q to quit)[27m[K[K...skipping...
+[m
+                   [1mSUMMARY[0m [1mOF[0m [1mLESS[0m [1mCOMMANDS[0m[m
+[m
+      Commands marked with * may be preceded by a number, [4mN[24m.[m
+      Notes in parentheses indicate the behavior if [4mN[24m is given.[m
+[m
+  h  H                 Display this help.[m
+  q  :q  Q  :Q  ZZ     Exit.[m
+ -----------------------------------------------------------------------[m ----[m
+[m
+                           [1mMOVING[0m[m
+[m
+  e  ^E  j  ^N  CR  *  Forward  one line   (or [4mN[24m lines).[m
+  y  ^Y  k  ^K  ^P  *  Backward one line   (or [4mN[24m lines).[m
+  f  ^F  ^V  SPACE  *  Forward  one window (or [4mN[24m lines).[m
+  b  ^B  ESC-v      *  Backward one window (or [4mN[24m lines).[m
+  z                 *  Forward  one window (and set window to [4mN[24m).[m
+  w                 *  Backward one window (and set window to [4mN[24m).[m
+  ESC-SPACE         *  Forward  one window, but don't stop at end-of-fil[m e.[m
+  d  ^D             *  Forward  one half-window (and set half-window to [m [4mN[24m).[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  u  ^U             *  Backward one half-window (and set half-window to [m [7mHELP -- Press RETURN for more, or q when done[27m[K[K[4mN[24m).[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  ESC-)  RightArrow *  Left  one half screen width (or [4mN[24m positions).[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  ESC-(  LeftArrow  *  Right one half screen width (or [4mN[24m positions).[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  F                    Forward forever; like "tail -f".[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  r  ^R  ^L            Repaint screen.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  R                    Repaint screen, discarding buffered input.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K        ---------------------------------------------------[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K        Default "window" is the screen height.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K        Default "half-window" is half of the screen height.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K -----------------------------------------------------------------------[m [7mHELP -- Press RETURN for more, or q when done[27m[K[K----[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                          [1mSEARCHING[0m[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  /[4mpattern[24m          *  Search forward for ([4mN[24m-th) matching line.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  ?[4mpattern[24m          *  Search backward for ([4mN[24m-th) matching line.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  n                 *  Repeat previous search (for [4mN[24m-th occurrence).[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  N                 *  Repeat previous search in reverse direction.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  ESC-n             *  Repeat previous search, spanning files.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  ESC-N             *  Repeat previous search, reverse dir. & spanning f[m [7mHELP -- Press RETURN for more, or q when done[27m[K[Kiles.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  ESC-u                Undo (toggle) search highlighting.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  &[4mpattern[24m          *  Display only matching lines[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K        ---------------------------------------------------[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K        Search patterns may be modified by one or more of:[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K        ^N or !  Search for NON-matching lines.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K        ^E or *  Search multiple files (pass thru END OF FILE).[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K        ^F or @  Start search at FIRST file (for /) or last file (for ?)[m [7mHELP -- Press RETURN for more, or q when done[27m[K[K.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K        ^K       Highlight matches, but don't move (KEEP position).[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K        ^R       Don't use REGULAR EXPRESSIONS.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K -----------------------------------------------------------------------[m [7mHELP -- Press RETURN for more, or q when done[27m[K[K----[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                           [1mJUMPING[0m[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  g  <  ESC-<       *  Go to first line in file (or line [4mN[24m).[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  G  >  ESC->       *  Go to last line in file (or line [4mN[24m).[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  p  %              *  Go to beginning of file (or [4mN[24m percent into file).[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  t                 *  Go to the ([4mN[24m-th) next tag.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  T                 *  Go to the ([4mN[24m-th) previous tag.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  {  (  [           *  Find close bracket } ) ].[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  }  )  ]           *  Find open bracket { ( [.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  ESC-^F [4m<c1>[24m [4m<c2>[24m  *  Find close bracket [4m<c2>[24m.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  ESC-^B [4m<c1>[24m [4m<c2>[24m  *  Find open bracket [4m<c1>[24m [m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K        ---------------------------------------------------[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K        Each "find close bracket" command goes forward to the close brac[m [7mHELP -- Press RETURN for more, or q when done[27m[K[Kket [m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K          matching the ([4mN[24m-th) open bracket in the top line.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K        Each "find open bracket" command goes backward to the open brack[m [7mHELP -- Press RETURN for more, or q when done[27m[K[Ket [m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K          matching the ([4mN[24m-th) close bracket in the bottom line.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  m[4m<letter>[24m            Mark the current position with <letter>.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  '[4m<letter>[24m            Go to a previously marked position.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  ''                   Go to the previous position.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  ^X^X                 Same as '.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K        ---------------------------------------------------[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K        A mark is any upper-case or lower-case letter.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K        Certain marks are predefined:[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K             ^  means  beginning of the file[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K             $  means  end of the file[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K -----------------------------------------------------------------------[m [7mHELP -- Press RETURN for more, or q when done[27m[K[K----[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                        [1mCHANGING[0m [1mFILES[0m[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  :e [[4mfile[24m]            Examine a new file.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  ^X^V                 Same as :e.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  :n                *  Examine the ([4mN[24m-th) next file from the command lin[m [7mHELP -- Press RETURN for more, or q when done[27m[K[Ke.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  :p                *  Examine the ([4mN[24m-th) previous file from the command[m [7mHELP -- Press RETURN for more, or q when done[27m[K[K line.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  :x                *  Examine the first (or [4mN[24m-th) file from the command[m [7mHELP -- Press RETURN for more, or q when done[27m[K[K line.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  :d                   Delete the current file from the command line lis[m [7mHELP -- Press RETURN for more, or q when done[27m[K[Kt.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  =  ^G  :f            Print current file name.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K -----------------------------------------------------------------------[m [7mHELP -- Press RETURN for more, or q when done[27m[K[K----[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                    [1mMISCELLANEOUS[0m [1mCOMMANDS[0m[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -[4m<flag>[24m              Toggle a command line option [see OPTIONS below].[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  --[4m<name>[24m             Toggle a command line option, by name.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  _[4m<flag>[24m              Display the setting of a command line option.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  __[4m<name>[24m             Display the setting of an option, by name.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  +[4mcmd[24m                 Execute the less cmd each time a new file is exam[m [7mHELP -- Press RETURN for more, or q when done[27m[K[Kined.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  ![4mcommand[24m             Execute the shell command with $SHELL.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  |[1mX[0m[4mcommand[24m            Pipe file between current pos & mark [1mX[0m to shell c[m [7mHELP -- Press RETURN for more, or q when done[27m[K[Kommand.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  v                    Edit the current file with $VISUAL or $EDITOR.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  V                    Print version number of "less".[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K -----------------------------------------------------------------------[m [7mHELP -- Press RETURN for more, or q when done[27m[K[K----[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                           [1mOPTIONS[0m[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K        Most options may be changed either on the command line,[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K        or from within less by using the - or -- command.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K        Options may be given in one of two forms: either a single[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K        character preceded by a -, or a name preceeded by --.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -?  ........  --help[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Display help (from command line).[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -a  ........  --search-skip-screen[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Forward search skips current screen.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -A  ........  --SEARCH-SKIP-SCREEN[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Forward search always skips target line.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -b [[4mN[24m]  ....  --buffers=[[4mN[24m][m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Number of buffers.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -B  ........  --auto-buffers[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Don't automatically allocate buffers for pipes.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -c  ........  --clear-screen[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Repaint by clearing rather than scrolling.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -d  ........  --dumb[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Dumb terminal.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -D [[4mxn.n[24m]  .  --color=[4mxn.n[24m[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Set screen colors. (MS-DOS only)[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -e  -E  ....  --quit-at-eof  --QUIT-AT-EOF[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Quit at end of file.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -f  ........  --force[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Force open non-regular files.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -F  ........  --quit-if-one-screen[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Quit if entire file fits on first screen.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -g  ........  --hilite-search[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Highlight only last match for searches.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -G  ........  --HILITE-SEARCH[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Don't highlight any matches for searches.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -h [[4mN[24m]  ....  --max-back-scroll=[[4mN[24m][m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Backward scroll limit.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -i  ........  --ignore-case[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Ignore case in searches that do not contain uppercase.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -I  ........  --IGNORE-CASE[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Ignore case in all searches.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -j [[4mN[24m]  ....  --jump-target=[[4mN[24m][m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Screen position of target lines.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -J  ........  --status-column[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Display a status column at left edge of screen.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -k [[4mfile[24m]  .  --lesskey-file=[[4mfile[24m][m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Use a lesskey file.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -K            --quit-on-intr[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Exit less in response to ctrl-C.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -L  ........  --no-lessopen[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Ignore the LESSOPEN environment variable.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -m  -M  ....  --long-prompt  --LONG-PROMPT[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Set prompt style.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -n  -N  ....  --line-numbers  --LINE-NUMBERS[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Don't use line numbers.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -o [[4mfile[24m]  .  --log-file=[[4mfile[24m][m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Copy to log file (standard input only).[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -O [[4mfile[24m]  .  --LOG-FILE=[[4mfile[24m][m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Copy to log file (unconditionally overwrite).[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -p [[4mpattern[24m]  --pattern=[[4mpattern[24m][m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Start at pattern (from command line).[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -P [[4mprompt[24m]   --prompt=[[4mprompt[24m][m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Define new prompt.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -q  -Q  ....  --quiet  --QUIET  --silent --SILENT[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Quiet the terminal bell.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -r  -R  ....  --raw-control-chars  --RAW-CONTROL-CHARS[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Output "raw" control characters.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -s  ........  --squeeze-blank-lines[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Squeeze multiple blank lines.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -S  ........  --chop-long-lines[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Chop long lines.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -t [[4mtag[24m]  ..  --tag=[[4mtag[24m][m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Find a tag.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -T [[4mtagsfile[24m] --tag-file=[[4mtagsfile[24m][m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Use an alternate tags file.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -u  -U  ....  --underline-special  --UNDERLINE-SPECIAL[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Change handling of backspaces.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -V  ........  --version[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Display the version number of "less".[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -w  ........  --hilite-unread[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Highlight first new line after forward-screen.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -W  ........  --HILITE-UNREAD[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Highlight first new line after any forward movement.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -x [[4mN[24m[,...]]  --tabs=[[4mN[24m[,...]][m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Set tab stops.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -X  ........  --no-init[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Don't use termcap init/deinit strings.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                --no-keypad[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Don't use termcap keypad init/deinit strings.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K...skipping...
+lp(1)                         Apple Inc.                         lp(1)[m
+[m
+[1mNAME[0m[m
+       lp - print files[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mlp[0m  [ -E ] [ -U [4musername[24m ] [ -c ] [ -d [4mdestination[/instance][24m ][m
+       [ -h  [4mhostname[:port][24m  ]  [  -m  ]  [  -n  [4mnum-copies[24m  ]  [  -o[m
+       [4moption[=value][24m  ] [ -q [4mpriority[24m ] [ -s ] [ -t [4mtitle[24m ] [ -H [4mhan‐[24m[m
+       [4mdling[24m ] [ -P [4mpage-list[24m ] [ -- ] [ [4mfile(s)[24m ][m
+       [1mlp[0m [ -E ] [ -U [4musername[24m ] [ -c ] [ -h [4mhostname[:port][24m  ]  [  -i[m
+       [4mjob-id[24m  ] [ -n [4mnum-copies[24m ] [ -o [4moption[=value][24m ] [ -q [4mpriority[24m[m
+       ] [ -t [4mtitle[24m ] [ -H [4mhandling[24m ] [ -P [4mpage-list[24m ][m
+[m
+[1mDESCRIPTION[0m[m
+       [4mlp[24m submits files for printing or alters a pending  job.  Use  a[m
+       filename of "-" to force printing from the standard input.[m
+[m
+[1mTHE[0m [1mDEFAULT[0m [1mDESTINATION[0m[m
+       CUPS  provides  many  ways  to set the default destination. The[m
+       "LPDEST" and  "PRINTER"  environment  variables  are  consulted[m
+       first.  If  neither  are set, the current default set using the[m
+       [4mlpoptions(1)[24m command is used, followed by the default set using[m
+[7m Manual page lp(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ append
+append: command not found
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ gedi t121[K[K1[K,tx[K[K[K.txt
+No command 'gedi' found, did you mean:
+ Command 'gedit' from package 'gedit' (main)
+gedi: command not found
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ gedi t1.txtt t1.txt
+^C
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ man alias
+No manual entry for alias
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ alais[K[K[Kias ll=''[Cl's' '-'a'l'[C
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ ll
+total 528
+drwxrwxr-x  2 s4c1 s4c1   4096 Jan  1 08:00 [0m[01;34m.[0m
+drwxr-xr-x 23 s4c1 s4c1   4096 Jan  1 07:19 [01;34m..[0m
+-rw-rw-r--  1 s4c1 s4c1     39 Jan  1 06:41 abc.txt
+-rw-rw-r--  1 s4c1 s4c1     10 Jan  1 07:44 filer.txt
+-rw-rw-r--  1 s4c1 s4c1     10 Jan  1 06:16 filer.txt~
+-rw-rw-r--  1 s4c1 s4c1     10 Jan  1 06:00 file.txt
+-rw-rw-r--  1 s4c1 s4c1     48 Jan  1 06:34 geek.txt
+-rw-rw-r--  1 s4c1 s4c1     28 Jan  1 06:33 geek.txt~
+-rw-rw-r--  1 s4c1 s4c1     10 Jan  1 06:07 output.txt
+-rw-rw-r--  1 s4c1 s4c1   7937 Jan  1 07:53 report.txt
+-rw-rw-r--  1 s4c1 s4c1   7325 Jan  1 07:31 report.txt~
+-rw-rw-r--  1 s4c1 s4c1     30 Jan  1 07:35 sample.txt
+-rw-rw-r--  1 s4c1 s4c1     68 Jan  1 07:34 sample.txt~
+-rw-rw-r--  1 s4c1 s4c1     11 Jan  1 06:09 state.txt
+-rw-rw-r--  1 s4c1 s4c1     11 Jan  1 08:00 t1.txt
+-rw-rw-r--  1 s4c1 s4c1     11 Jan  1 06:38 t1.txt~
+-rw-rw-r--  1 s4c1 s4c1      9 Jan  1 06:38 t2.txt
+-rw-rw-r--  1 s4c1 s4c1 139264 Jan  1 07:59 work1.txt
+-rw-rw-r--  1 s4c1 s4c1 320267 Jan  1 07:17 work.txt
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ unalisa[K[Kas ll
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ gedit repot[Krt.txt
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ exit
+Script done on Wednesday 01 January 2003 08:05:15 AM IST

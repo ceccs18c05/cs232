@@ -1,0 +1,421 @@
+CEC CS 18 005
+Aju George Jacob
+
+--------------------------------
+#1: Aim/task
+---------------------------------
+t1 - Familiarization of Linux commands
+
+sort
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+sort -n file.txt - used to sort a file numerically
+
+-------------------
+Input: (If relevant)
+-------------------
+file.txt	
+	5
+	4
+	3
+	2
+	1
+-------------------------------------
+Output: or Input & Output (whichever is applicable)
+-------------------------------------
+terminal
+		1
+		2
+		3
+		4
+		5
+
+-------------------
+Remarks if any:
+-------------------
+
+
+
+---------------------------------
+---------------------------------
+#2: Aim/task
+---------------------------------
+t1 - Familiarization of Linux commands
+
+sort
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+sort -nk7 file.txt
+-------------------
+Input: (If relevant)
+-------------------
+file.txt
+		5
+		4
+		3
+		2
+		1
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+--------------------------------
+terminal
+		1
+		2
+		3
+		4
+		5
+-------------------
+Remarks if any:
+-------------------
+
+
+
+
+--------------------------------
+--------------------------------
+#3: Aim/task
+---------------------------------
+t1 - Familiarization of Linux commands
+
+sort
+
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+sort -o output.txt file.txt - used to give output of a sorted file directy to a text file
+
+-------------------
+Input: (If relevant)
+---------------
+file.txt
+		1
+		2
+		3
+		4
+		5
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+--------------------------------
+output.txt
+		1
+		2
+		3
+		4
+		5
+-------------------
+Remarks if any:
+-------------------
+
+
+
+
+
+---------------------------------
+---------------------------------
+#4: Aim/task 
+---------------------------------
+t1 - Familiarization of Linux commands
+
+sorting in reverse order
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+sort -r file.txt - used to sort in reverse order
+-------------------
+Input: (If relevant)
+-------------------
+filer.txt
+		1
+		2
+		3
+		4
+		5
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+--------------------------------
+terminal 
+		5
+		4
+		3
+		2
+		1
+-------------------
+Remarks if any:
+-------------------
+
+
+
+
+--------------------------------
+--------------------------------
+#5: Aim/task
+--------------------------------
+t1 - Familiarization of Linux commands
+cut
+
+Command/Shell script/Program name
+---------------------------------
+cut -b 1,2,3 state.txt - used to display the specified elements from the text file
+-------------------
+Input: (If relevant)
+-------------------
+state.txt
+	helloworld
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+--------------------------------
+terminal
+	hel
+----------------
+Remarks if any:
+----------------
+
+
+
+
+--------------------------------
+--------------------------------
+#6: Aim/task
+--------------------------------
+t1 - Familiarization of Linux commands
+cut
+Command/Shell script/Program name
+---------------------------------
+cut -c -5 state.txt - used to display the number of elements specified in the command.
+-------------------
+Input: (If relevant)
+-------------------
+state.txt
+	helloworld
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+--------------------------------
+terminal 
+	hello
+-------------------
+Remarks if any:
+-------------------
+
+
+
+
+--------------------------------
+--------------------------------
+#7: Aim/task
+--------------------------------
+t1 - Familiarization of Linux commands
+grep
+
+Command/Shell script/Program name
+---------------------------------
+ grep -c "llo" state.txt - used to check a substring in a text file.
+-------------------
+Input: (If relevant)
+---------------
+state.txt
+	helloworld
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+-------------------
+terminal
+	1
+-------------------
+Remarks if any:
+-------------------
+
+
+
+--------------------------------
+--------------------------------
+#8: Aim/task
+--------------------------------
+t1 - Familiarization of Linux commands
+uname
+
+Command/Shell script/Program name
+---------------------------------
+ uname - used to check the kernel
+-------------------
+Input: (If relevant)
+-------------------
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+--------------------------------
+terminal
+	linux
+-------------------
+Remarks if any:
+-------------------
+
+
+
+--------------------------------
+--------------------------------
+#9: Aim/task
+--------------------------------
+t1 - Familiarization of Linux commands
+ls
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+ ls  - used to simply list the the files in the directory 
+-------------------
+Input: (If relevant)
+-------------------
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+--------------------------------
+terminal
+	abc.txt    file.txt  geek.txt~   report.txt   state.txt  		t2.txt     work.txt
+	filer.txt  geek.txt  output.txt  report.txt~  t1.txt     		work1.txt
+-------------------
+Remarks if any:
+-------------------
+
+
+
+--------------------------------
+--------------------------------
+#10: Aim/task
+--------------------------------
+t1 - Familiarization of Linux commands
+ls
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+ ls -l   - used to list the the files in the directory with date of modification
+-------------------
+Input: (If relevant)
+-------------------
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+--------------------------------
+terminal
+	-rw-rw-r-- 1 s4c1 s4c1     39 Jan  1 06:41 abc.txt
+	-rw-rw-r-- 1 s4c1 s4c1     10 Jan  1 06:16 filer.txt
+	-rw-rw-r-- 1 s4c1 s4c1     10 Jan  1 06:00 file.txt
+	-rw-rw-r-- 1 s4c1 s4c1     48 Jan  1 06:34 geek.txt
+	-rw-rw-r-- 1 s4c1 s4c1     28 Jan  1 06:33 geek.txt~
+	-rw-rw-r-- 1 s4c1 s4c1     10 Jan  1 06:07 output.txt
+	-rw-rw-r-- 1 s4c1 s4c1   1121 Jan  1 06:21 report.txt
+	-rw-rw-r-- 1 s4c1 s4c1   1121 Jan  1 06:21 report.txt~
+	-rw-rw-r-- 1 s4c1 s4c1     11 Jan  1 06:09 state.txt
+	-rw-rw-r-- 1 s4c1 s4c1     11 Jan  1 06:38 t1.txt
+	-rw-rw-r-- 1 s4c1 s4c1      9 Jan  1 06:38 t2.txt
+	-rw-rw-r-- 1 s4c1 s4c1 315392 Jan  1 06:37 work.txt
+-------------------
+Remarks if any:
+-------------------
+
+
+
+--------------------------------
+--------------------------------
+#10: Aim/task
+--------------------------------
+t1 - Familiarization of Linux commands
+ls
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+ uname -v  - to display the current kernel with the time
+-------------------
+Input: (If relevant)
+-------------------
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+--------------------------------
+terminal
+	#57~precise1-Ubuntu SMP Tue Jul 15 03:50:54 UTC 2014
+-------------------
+Remarks if any:
+-------------------
+
+
+
+--------------------------------
+--------------------------------
+#10: Aim/task
+--------------------------------
+t1 - Familiarization of Linux commands
+paste
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+paste t1.txt t2.txt - used to paste 2 files co
+-------------------
+Input: (If relevant)
+-------------------
+t1.txt
+	helloworld
+t2.txt
+	byeworld
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+--------------------------------
+terminal
+	helloworld	byeworld
+-------------------
+Remarks if any:
+-------------------
+
+
+
+--------------------------------
+--------------------------------
+#10: Aim/task
+--------------------------------
+t1 - Familiarization of Linux commands
+alias
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+alias ll='ls -al' - used to assign another name for a command
+-------------------
+Input: (If relevant)
+-------------------
+ll
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+--------------------------------
+terminal
+	total 528
+	drwxrwxr-x  2 s4c1 s4c1   4096 Jan  1 08:00 .
+	drwxr-xr-x 23 s4c1 s4c1   4096 Jan  1 07:19 ..
+	-rw-rw-r--  1 s4c1 s4c1     39 Jan  1 06:41 abc.txt
+	-rw-rw-r--  1 s4c1 s4c1     10 Jan  1 07:44 filer.txt
+	-rw-rw-r--  1 s4c1 s4c1     10 Jan  1 06:16 filer.txt~
+	-rw-rw-r--  1 s4c1 s4c1     10 Jan  1 06:00 file.txt
+	-rw-rw-r--  1 s4c1 s4c1     48 Jan  1 06:34 geek.txt
+	-rw-rw-r--  1 s4c1 s4c1     28 Jan  1 06:33 geek.txt~
+	-rw-rw-r--  1 s4c1 s4c1     10 Jan  1 06:07 output.txt
+	-rw-rw-r--  1 s4c1 s4c1   7937 Jan  1 07:53 report.txt
+	-rw-rw-r--  1 s4c1 s4c1   7325 Jan  1 07:31 report.txt~
+	-rw-rw-r--  1 s4c1 s4c1     30 Jan  1 07:35 sample.txt
+	-rw-rw-r--  1 s4c1 s4c1     68 Jan  1 07:34 sample.txt~
+	-rw-rw-r--  1 s4c1 s4c1     11 Jan  1 06:09 state.txt
+	-rw-rw-r--  1 s4c1 s4c1     11 Jan  1 08:00 t1.txt
+	-rw-rw-r--  1 s4c1 s4c1     11 Jan  1 06:38 t1.txt~
+	-rw-rw-r--  1 s4c1 s4c1      9 Jan  1 06:38 t2.txt
+	-rw-rw-r--  1 s4c1 s4c1 139264 Jan  1 07:59 work1.txt
+	-rw-rw-r--  1 s4c1 s4c1 320267 Jan  1 07:17 work.txt
+
+-------------------
+Remarks if any:
+-------------------
+use "unalias ll" to undo the name for the command 
+
+
+--------------------------------
+--------------------------------
+
+
