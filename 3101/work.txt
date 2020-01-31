@@ -1,0 +1,2472 @@
+]0;s4c1@lab2-AcerPower-Series: ~s4c1@lab2-AcerPower-Series:~$ sftp cs18c05@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c05@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> dmr[K[K[Kexit
+^Z
+[1]+  Stopped                 sftp cs18c05@192.168.0.30
+]0;s4c1@lab2-AcerPower-Series: ~s4c1@lab2-AcerPower-Series:~$ man ftp
+[?1049h[?1h=
+FTP(1)                    BSD General Commands Manual                   FTP(1)[m
+[m
+[1mNAME[0m[m
+     [1mftp[0m — Internet file transfer program[m
+[m
+[1mSYNOPSIS[0m[m
+     [1mftp[0m [[1m-46pinegvd[0m] [[4mhost[24m [[4mport[24m]][m
+     [1mpftp[0m [[1m-46inegvd[0m] [[4mhost[24m [[4mport[24m]][m
+[m
+[1mDESCRIPTION[0m[m
+     [1mFtp[0m is the user interface to the Internet standard File Transfer Proto‐[m
+     col.  The program allows a user to transfer files to and from a remote[m
+     network site.[m
+[m
+     Options may be specified at the command line, or to the command inter‐[m
+     preter.[m
+[m
+     [1m-4[0m    Use only IPv4 to contact any host.[m
+[m
+     [1m-6[0m    Use IPv6 only.[m
+[m
+     [1m-p[0m    Use passive mode for data transfers. Allows use of ftp in environ‐[m
+           ments where a firewall prevents connections from the outside world[m
+[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K           back to the client machine. Requires that the ftp server support[m
+[7m Manual page ftp(1) line 2 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K           the PASV command. This is the default if invoked as [1mpftp.[0m[m
+[7m Manual page ftp(1) line 3 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 4 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1m-i[0m    Turns off interactive prompting during multiple file transfers.[m
+[7m Manual page ftp(1) line 5 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 6 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1m-n[0m    Restrains [1mftp[0m from attempting “auto-login” upon initial connection.[m
+[7m Manual page ftp(1) line 7 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K           If auto-login is enabled, [1mftp[0m will check the [4m.netrc[24m (see netrc(5))[m
+[7m Manual page ftp(1) line 8 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K           file in the user's home directory for an entry describing an[m
+[7m Manual page ftp(1) line 9 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K           account on the remote machine.  If no entry exists, [1mftp[0m will prompt[m
+[7m Manual page ftp(1) line 10 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K           for the remote machine login name (default is the user identity on[m
+[7m Manual page ftp(1) line 11 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K           the local machine), and, if necessary, prompt for a password and an[m
+[7m Manual page ftp(1) line 12 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K           account with which to login.[m
+[7m Manual page ftp(1) line 13 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 14 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1m-e[0m    Disables command editing and history support, if it was compiled[m
+[7m Manual page ftp(1) line 15 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K           into the [1mftp[0m executable. Otherwise, does nothing.[m
+[7m Manual page ftp(1) line 16 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 17 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1m-g[0m    Disables file name globbing.[m
+[7m Manual page ftp(1) line 18 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 19 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1m-v[0m    Verbose option forces [1mftp[0m to show all responses from the remote[m
+[7m Manual page ftp(1) line 20 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K           server, as well as report on data transfer statistics.[m
+[7m Manual page ftp(1) line 21 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 22 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1m-d[0m    Enables debugging.[m
+[7m Manual page ftp(1) line 23 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 24 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     The client host and an optional port number with which [1mftp[0m is to communi‐[m
+[7m Manual page ftp(1) line 25 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     cate may be specified on the command line.  If this is done, [1mftp[0m will[m
+[7m Manual page ftp(1) line 26 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     immediately attempt to establish a connection to an FTP server on that[m
+[7m Manual page ftp(1) line 27 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     host; otherwise, [1mftp[0m will enter its command interpreter and await[m
+[7m Manual page ftp(1) line 28 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     instructions from the user.  When [1mftp[0m is awaiting commands from the user[m
+[7m Manual page ftp(1) line 29 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     the prompt ‘ftp>’ is provided to the user.  The following commands are[m
+[7m Manual page ftp(1) line 30 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     recognized by [1mftp[0m:[m
+[7m Manual page ftp(1) line 31 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 32 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1m![0m [[4mcommand[24m [[4margs[24m]][m
+[7m Manual page ftp(1) line 33 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Invoke an interactive shell on the local machine.  If there[m
+[7m Manual page ftp(1) line 34 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 are arguments, the first is taken to be a command to execute[m
+[7m Manual page ftp(1) line 35 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 directly, with the rest of the arguments as its arguments.[m
+[7m Manual page ftp(1) line 36 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 37 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1m$[0m [4mmacro-name[24m [[4margs[24m][m
+[7m Manual page ftp(1) line 38 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Execute the macro [4mmacro-name[24m that was defined with the [1mmacdef[0m[m
+[7m Manual page ftp(1) line 39 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 command.  Arguments are passed to the macro unglobbed.[m
+[7m Manual page ftp(1) line 40 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 41 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1maccount[0m [[4mpasswd[24m][m
+[7m Manual page ftp(1) line 42 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Supply a supplemental password required by a remote system[m
+[7m Manual page ftp(1) line 43 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 for access to resources once a login has been successfully[m
+[7m Manual page ftp(1) line 44 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 completed.  If no argument is included, the user will be[m
+[7m Manual page ftp(1) line 45 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 prompted for an account password in a non-echoing input mode.[m
+[7m Manual page ftp(1) line 46 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 47 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mappend[0m [4mlocal-file[24m [[4mremote-file[24m][m
+[7m Manual page ftp(1) line 48 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Append a local file to a file on the remote machine.  If[m
+[7m Manual page ftp(1) line 49 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 [4mremote-file[24m is left unspecified, the local file name is used[m
+[7m Manual page ftp(1) line 50 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 in naming the remote file after being altered by any [1mntrans[0m[m
+[7m Manual page ftp(1) line 51 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 or [1mnmap[0m setting.  File transfer uses the current settings for[m
+[7m Manual page ftp(1) line 52 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 [1mtype[0m, [1mformat[0m, [1mmode[0m, and [1mstructure[0m.[m
+[7m Manual page ftp(1) line 53 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 54 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mascii[0m       Set the file transfer [1mtype[0m to network ASCII.  This is the[m
+[7m Manual page ftp(1) line 55 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 default type.[m
+[7m Manual page ftp(1) line 56 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 57 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mbell[0m        Arrange that a bell be sounded after each file transfer com‐[m
+[7m Manual page ftp(1) line 58 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 mand is completed.[m
+[7m Manual page ftp(1) line 59 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 60 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mbinary[0m      Set the file transfer [1mtype[0m to support binary image transfer.[m
+[7m Manual page ftp(1) line 61 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 62 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mbye[0m         Terminate the FTP session with the remote server and exit[m
+[7m Manual page ftp(1) line 63 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 [1mftp[0m.  An end of file will also terminate the session and[m
+[7m Manual page ftp(1) line 64 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 exit.[m
+[7m Manual page ftp(1) line 65 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 66 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mcase[0m        Toggle remote computer file name case mapping during [1mmget[0m[m
+[7m Manual page ftp(1) line 67 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 commands.  When [1mcase[0m is on (default is off), remote computer[m
+[7m Manual page ftp(1) line 68 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 file names with all letters in upper case are written in the[m
+[7m Manual page ftp(1) line 69 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 local directory with the letters mapped to lower case.[m
+[7m Manual page ftp(1) line 70 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 71 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mcd[0m [4mremote-directory[24m[m
+[7m Manual page ftp(1) line 72 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Change the working directory on the remote machine to[m
+[7m Manual page ftp(1) line 73 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 [4mremote-directory[24m.[m
+[7m Manual page ftp(1) line 74 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 75 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mcdup[0m        Change the remote machine working directory to the parent of[m
+[7m Manual page ftp(1) line 76 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 the current remote machine working directory.[m
+[7m Manual page ftp(1) line 77 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 78 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mchmod[0m [4mmode[24m [4mfile-name[24m[m
+[7m Manual page ftp(1) line 79 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 default type.[m
+[24;1H
+[K[7m Manual page ftp(1) line 78 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM     [1mascii[0m       Set the file transfer [1mtype[0m to network ASCII.  This is the[m
+[24;1H
+[K[7m Manual page ftp(1) line 77 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page ftp(1) line 76 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 [1mtype[0m, [1mformat[0m, [1mmode[0m, and [1mstructure[0m.[m
+[24;1H
+[K[7m Manual page ftp(1) line 75 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 or [1mnmap[0m setting.  File transfer uses the current settings for[m
+[24;1H
+[K[7m Manual page ftp(1) line 74 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 in naming the remote file after being altered by any [1mntrans[0m[m
+[24;1H
+[K[7m Manual page ftp(1) line 73 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 [4mremote-directory[24m.[m
+[7m Manual page ftp(1) line 74 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 75 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mcdup[0m        Change the remote machine working directory to the parent of[m
+[7m Manual page ftp(1) line 76 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 the current remote machine working directory.[m
+[7m Manual page ftp(1) line 77 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 78 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mchmod[0m [4mmode[24m [4mfile-name[24m[m
+[7m Manual page ftp(1) line 79 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Change the permission modes of the file [4mfile-name[24m on the[m
+[7m Manual page ftp(1) line 80 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 remote sytem to [4mmode[24m.[m
+[7m Manual page ftp(1) line 81 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 82 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mclose[0m       Terminate the FTP session with the remote server, and return[m
+[7m Manual page ftp(1) line 83 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 to the command interpreter.  Any defined macros are erased.[m
+[7m Manual page ftp(1) line 84 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 85 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mcr[0m          Toggle carriage return stripping during ascii type file[m
+[7m Manual page ftp(1) line 86 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 retrieval.  Records are denoted by a carriage return/linefeed[m
+[7m Manual page ftp(1) line 87 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 sequence during ascii type file transfer.  When [1mcr[0m is on (the[m
+[7m Manual page ftp(1) line 88 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 default), carriage returns are stripped from this sequence to[m
+[7m Manual page ftp(1) line 89 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 conform with the UNIX single linefeed record delimiter.[m
+[7m Manual page ftp(1) line 90 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Records on non-UNIX remote systems may contain single line‐[m
+[7m Manual page ftp(1) line 91 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 feeds; when an ascii type transfer is made, these linefeeds[m
+[7m Manual page ftp(1) line 92 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 may be distinguished from a record delimiter only when [1mcr[0m is[m
+[7m Manual page ftp(1) line 93 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 off.[m
+[7m Manual page ftp(1) line 94 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 95 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mqc[0m          Toggle the printing of control characters in the output of[m
+[7m Manual page ftp(1) line 96 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 ASCII type commands.  When this is turned on, control charac‐[m
+[7m Manual page ftp(1) line 97 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 ters are replaced with a question mark if the output file is[m
+[7m Manual page ftp(1) line 98 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 the standard output.  This is the default when the standard[m
+[7m Manual page ftp(1) line 99 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 output is a tty.[m
+[7m Manual page ftp(1) line 100 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 101 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mdelete[0m [4mremote-file[24m[m
+[7m Manual page ftp(1) line 102 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Delete the file [4mremote-file[24m on the remote machine.[m
+[7m Manual page ftp(1) line 103 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 104 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mdebug[0m [[4mdebug-value[24m][m
+[7m Manual page ftp(1) line 105 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Toggle debugging mode.  If an optional [4mdebug-value[24m is speci‐[m
+[7m Manual page ftp(1) line 106 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 fied it is used to set the debugging level.  When debugging[m
+[7m Manual page ftp(1) line 107 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 is on, [1mftp[0m prints each command sent to the remote machine,[m
+[7m Manual page ftp(1) line 108 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 preceded by the string ‘-->’[m
+[7m Manual page ftp(1) line 109 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 110 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mdir[0m [[4mremote-directory[24m] [[4mlocal-file[24m][m
+[7m Manual page ftp(1) line 111 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Print a listing of the directory contents in the directory,[m
+[7m Manual page ftp(1) line 112 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 [4mremote-directory[24m, and, optionally, placing the output in[m
+[7m Manual page ftp(1) line 113 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 [4mlocal-file[24m.  If interactive prompting is on, [1mftp[0m will prompt[m
+[7m Manual page ftp(1) line 114 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 the user to verify that the last argument is indeed the tar‐[m
+[7m Manual page ftp(1) line 115 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 get local file for receiving [1mdir[0m output.  If no directory is[m
+[7m Manual page ftp(1) line 116 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 specified, the current working directory on the remote[m
+[7m Manual page ftp(1) line 117 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 machine is used.  If no local file is specified, or[m
+[7m Manual page ftp(1) line 118 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 [4mlocal-file[24m is [1m-[0m, output comes to the terminal.[m
+[7m Manual page ftp(1) line 119 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 120 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mdisconnect[0m  A synonym for [4mclose[24m.[m
+[7m Manual page ftp(1) line 121 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 122 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mform[0m [4mformat[24m[m
+[7m Manual page ftp(1) line 123 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Set the file transfer [1mform[0m to [4mformat[24m.  The default format is[m
+[7m Manual page ftp(1) line 124 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 “file”.[m
+[7m Manual page ftp(1) line 125 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 126 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mget[0m [4mremote-file[24m [[4mlocal-file[24m][m
+[7m Manual page ftp(1) line 127 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Retrieve the [4mremote-file[24m and store it on the local machine.[m
+[7m Manual page ftp(1) line 128 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 If the local file name is not specified, it is given the same[m
+[7m Manual page ftp(1) line 129 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 name it has on the remote machine, subject to alteration by[m
+[7m Manual page ftp(1) line 130 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 the current [1mcase[0m, [1mntrans[0m, and [1mnmap[0m settings.  The current[m
+[7m Manual page ftp(1) line 131 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 settings for [1mtype[0m, [1mform[0m, [1mmode[0m, and [1mstructure[0m are used while[m
+[7m Manual page ftp(1) line 132 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 transferring the file.[m
+[7m Manual page ftp(1) line 133 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 134 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mglob[0m        Toggle filename expansion for [1mmdelete[0m, [1mmget[0m and [1mmput[0m.  If[m
+[7m Manual page ftp(1) line 135 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 globbing is turned off with [1mglob[0m, the file name arguments are[m
+[7m Manual page ftp(1) line 136 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 taken literally and not expanded.  Globbing for [1mmput[0m is done[m
+[7m Manual page ftp(1) line 137 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 as in csh(1).  For [1mmdelete[0m and [1mmget[0m, each remote file name is[m
+[7m Manual page ftp(1) line 138 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 expanded separately on the remote machine and the lists are[m
+[7m Manual page ftp(1) line 139 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 not merged.  Expansion of a directory name is likely to be[m
+[7m Manual page ftp(1) line 140 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 different from expansion of the name of an ordinary file: the[m
+[7m Manual page ftp(1) line 141 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 exact result depends on the foreign operating system and ftp[m
+[7m Manual page ftp(1) line 142 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 server, and can be previewed by doing ‘mls remote-files -’[m
+[7m Manual page ftp(1) line 143 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Note: [1mmget[0m and [1mmput[0m are not meant to transfer entire direc‐[m
+[7m Manual page ftp(1) line 144 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 tory subtrees of files.  That can be done by transferring a[m
+[7m Manual page ftp(1) line 145 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 tar(1) archive of the subtree (in binary mode).[m
+[7m Manual page ftp(1) line 146 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 147 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mhash[0m        Toggle hash-sign (``#'') printing for each data block trans‐[m
+[7m Manual page ftp(1) line 148 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 ferred.  The size of a data block is 1024 bytes.[m
+[7m Manual page ftp(1) line 149 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 150 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mhelp[0m [[4mcommand[24m][m
+[7m Manual page ftp(1) line 151 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Print an informative message about the meaning of [4mcommand[24m.[m
+[7m Manual page ftp(1) line 152 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 If no argument is given, [1mftp[0m prints a list of the known com‐[m
+[7m Manual page ftp(1) line 153 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 mands.[m
+[7m Manual page ftp(1) line 154 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 155 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1midle[0m [[4mseconds[24m][m
+[7m Manual page ftp(1) line 156 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Set the inactivity timer on the remote server to [4mseconds[24m sec‐[m
+[7m Manual page ftp(1) line 157 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 onds.  If [4mseconds[24m is omitted, the current inactivity timer is[m
+[7m Manual page ftp(1) line 158 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 printed.[m
+[7m Manual page ftp(1) line 159 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 160 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mipany[0m       Allow the address resolver to return any address family.[m
+[7m Manual page ftp(1) line 161 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 162 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mipv4[0m        Restrict the address resolver to look only for IPv4[m
+[7m Manual page ftp(1) line 163 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 addresses.[m
+[7m Manual page ftp(1) line 164 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 165 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mipv6[0m        Restrict host adressing to IPv6 only.[m
+[7m Manual page ftp(1) line 166 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 167 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mlcd[0m [[4mdirectory[24m][m
+[7m Manual page ftp(1) line 168 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Change the working directory on the local machine.  If no[m
+[7m Manual page ftp(1) line 169 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 [4mdirectory[24m is specified, the user's home directory is used.[m
+[7m Manual page ftp(1) line 170 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 171 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mls[0m [[4mremote-directory[24m] [[4mlocal-file[24m][m
+[7m Manual page ftp(1) line 172 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Print a listing of the contents of a directory on the remote[m
+[7m Manual page ftp(1) line 173 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 machine.  The listing includes any system-dependent informa‐[m
+[7m Manual page ftp(1) line 174 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 tion that the server chooses to include; for example, most[m
+[7m Manual page ftp(1) line 175 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 UNIX systems will produce output from the command ‘ls -l’.[m
+[7m Manual page ftp(1) line 176 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 (See also [1mnlist[0m.)  If [4mremote-directory[24m is left unspecified,[m
+[7m Manual page ftp(1) line 177 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 the current working directory is used.  If interactive[m
+[7m Manual page ftp(1) line 178 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 prompting is on, [1mftp[0m will prompt the user to verify that the[m
+[7m Manual page ftp(1) line 179 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 last argument is indeed the target local file for receiving[m
+[7m Manual page ftp(1) line 180 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 [1mls[0m output.  If no local file is specified, or if [4mlocal-file[24m[m
+[7m Manual page ftp(1) line 181 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 is ‘[1m-[0m’, the output is sent to the terminal.[m
+[7m Manual page ftp(1) line 182 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 183 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mmacdef[0m [4mmacro-name[24m[m
+[7m Manual page ftp(1) line 184 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Define a macro.  Subsequent lines are stored as the macro[m
+[7m Manual page ftp(1) line 185 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 [4mmacro-name[24m; a null line (consecutive newline characters in a[m
+[7m Manual page ftp(1) line 186 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 file or carriage returns from the terminal) terminates macro[m
+[7m Manual page ftp(1) line 187 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 input mode.  There is a limit of 16 macros and 4096 total[m
+[7m Manual page ftp(1) line 188 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 characters in all defined macros.  Macros remain defined[m
+[7m Manual page ftp(1) line 189 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 until a [1mclose[0m command is executed.  The macro processor[m
+[7m Manual page ftp(1) line 190 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 interprets `$' and `\' as special characters.  A `$' followed[m
+[7m Manual page ftp(1) line 191 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 by a number (or numbers) is replaced by the corresponding[m
+[7m Manual page ftp(1) line 192 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 argument on the macro invocation command line.  A `$' fol‐[m
+[7m Manual page ftp(1) line 193 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 lowed by an `i' signals that macro processor that the execut‐[m
+[7m Manual page ftp(1) line 194 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 ing macro is to be looped.  On the first pass `$i' is[m
+[7m Manual page ftp(1) line 195 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 replaced by the first argument on the macro invocation com‐[m
+[7m Manual page ftp(1) line 196 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 mand line, on the second pass it is replaced by the second[m
+[7m Manual page ftp(1) line 197 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 argument, and so on.  A `\' followed by any character is[m
+[7m Manual page ftp(1) line 198 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 replaced by that character.  Use the `\' to prevent special[m
+[7m Manual page ftp(1) line 199 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 treatment of the `$'.[m
+[7m Manual page ftp(1) line 200 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 201 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mmdelete[0m [[4mremote-files[24m][m
+[7m Manual page ftp(1) line 202 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Delete the [4mremote-files[24m on the remote machine.[m
+[7m Manual page ftp(1) line 203 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 204 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mmdir[0m [4mremote-files[24m [4mlocal-file[24m[m
+[7m Manual page ftp(1) line 205 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Like [1mdir[0m, except multiple remote files may be specified.  If[m
+[7m Manual page ftp(1) line 206 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 interactive prompting is on, [1mftp[0m will prompt the user to ver‐[m
+[7m Manual page ftp(1) line 207 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 ify that the last argument is indeed the target local file[m
+[7m Manual page ftp(1) line 208 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 for receiving [1mmdir[0m output.[m
+[7m Manual page ftp(1) line 209 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 210 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mmget[0m [4mremote-files[24m[m
+[7m Manual page ftp(1) line 211 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Expand the [4mremote-files[24m on the remote machine and do a [1mget[0m[m
+[7m Manual page ftp(1) line 212 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 for each file name thus produced.  See [1mglob[0m for details on[m
+[7m Manual page ftp(1) line 213 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 the filename expansion.  Resulting file names will then be[m
+[7m Manual page ftp(1) line 214 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 processed according to [1mcase[0m, [1mntrans[0m, and [1mnmap[0m settings.[m
+[7m Manual page ftp(1) line 215 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Files are transferred into the local working directory, which[m
+[7m Manual page ftp(1) line 216 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 can be changed with ‘lcd directory’; new local directories[m
+[7m Manual page ftp(1) line 217 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 can be created with ‘! mkdir directory’.[m
+[7m Manual page ftp(1) line 218 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 219 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mmkdir[0m [4mdirectory-name[24m[m
+[7m Manual page ftp(1) line 220 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Make a directory on the remote machine.[m
+[7m Manual page ftp(1) line 221 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 222 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mmls[0m [4mremote-files[24m [4mlocal-file[24m[m
+[7m Manual page ftp(1) line 223 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Like [1mnlist[0m, except multiple remote files may be specified,[m
+[7m Manual page ftp(1) line 224 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 and the [4mlocal-file[24m must be specified.  If interactive prompt‐[m
+[7m Manual page ftp(1) line 225 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 ing is on, [1mftp[0m will prompt the user to verify that the last[m
+[7m Manual page ftp(1) line 226 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 argument is indeed the target local file for receiving [1mmls[0m[m
+[7m Manual page ftp(1) line 227 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 output.[m
+[7m Manual page ftp(1) line 228 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 229 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 Like [1mdir[0m, except multiple remote files may be specified.  If[m
+[24;1H
+[K[7m Manual page ftp(1) line 228 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM     [1mmdir[0m [4mremote-files[24m [4mlocal-file[24m[m
+[24;1H
+[K[7m Manual page ftp(1) line 227 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page ftp(1) line 226 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 argument is indeed the target local file for receiving [1mmls[0m[m
+[7m Manual page ftp(1) line 227 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 output.[m
+[7m Manual page ftp(1) line 228 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 229 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mmode[0m [[4mmode-name[24m][m
+[7m Manual page ftp(1) line 230 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Set the file transfer [1mmode[0m to [4mmode-name[24m.  The default mode is[m
+[7m Manual page ftp(1) line 231 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 “stream” mode.[m
+[7m Manual page ftp(1) line 232 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 233 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mmodtime[0m [4mfile-name[24m[m
+[7m Manual page ftp(1) line 234 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Show the last modification time of the file on the remote[m
+[7m Manual page ftp(1) line 235 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 machine.[m
+[7m Manual page ftp(1) line 236 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 237 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mmput[0m [4mlocal-files[24m[m
+[7m Manual page ftp(1) line 238 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Expand wild cards in the list of local files given as argu‐[m
+[7m Manual page ftp(1) line 239 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 ments and do a [1mput[0m for each file in the resulting list.  See[m
+[7m Manual page ftp(1) line 240 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 [1mglob[0m for details of filename expansion.  Resulting file names[m
+[7m Manual page ftp(1) line 241 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 will then be processed according to [1mntrans[0m and [1mnmap[0m settings.[m
+[7m Manual page ftp(1) line 242 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 243 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mnewer[0m [4mfile-name[24m [[4mlocal-file[24m][m
+[7m Manual page ftp(1) line 244 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Get the file only if the modification time of the remote file[m
+[7m Manual page ftp(1) line 245 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 is more recent that the file on the current system.  If the[m
+[7m Manual page ftp(1) line 246 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 file does not exist on the current system, the remote file is[m
+[7m Manual page ftp(1) line 247 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 considered [1mnewer[0m.  Otherwise, this command is identical to[m
+[7m Manual page ftp(1) line 248 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 [4mget[24m.[m
+[7m Manual page ftp(1) line 249 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 250 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mnlist[0m [[4mremote-directory[24m] [[4mlocal-file[24m][m
+[7m Manual page ftp(1) line 251 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Print a  list of the files in a directory on the remote[m
+[7m Manual page ftp(1) line 252 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 machine.  If [4mremote-directory[24m is left unspecified, the cur‐[m
+[7m Manual page ftp(1) line 253 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 rent working directory is used.  If interactive prompting is[m
+[7m Manual page ftp(1) line 254 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 on, [1mftp[0m will prompt the user to verify that the last argument[m
+[7m Manual page ftp(1) line 255 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 is indeed the target local file for receiving [1mnlist[0m output.[m
+[7m Manual page ftp(1) line 256 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 If no local file is specified, or if [4mlocal-file[24m is [1m-[0m, the[m
+[7m Manual page ftp(1) line 257 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 output is sent to the terminal.[m
+[7m Manual page ftp(1) line 258 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 259 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mnmap[0m [[4minpattern[24m [4moutpattern[24m][m
+[7m Manual page ftp(1) line 260 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Set or unset the filename mapping mechanism.  If no arguments[m
+[7m Manual page ftp(1) line 261 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 are specified, the filename mapping mechanism is unset.  If[m
+[7m Manual page ftp(1) line 262 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 arguments are specified, remote filenames are mapped during[m
+[7m Manual page ftp(1) line 263 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 [1mmput[0m commands and [1mput[0m commands issued without a specified[m
+[7m Manual page ftp(1) line 264 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 remote target filename.  If arguments are specified, local[m
+[7m Manual page ftp(1) line 265 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 filenames are mapped during [1mmget[0m commands and [1mget[0m commands[m
+[7m Manual page ftp(1) line 266 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 issued without a specified local target filename.  This com‐[m
+[7m Manual page ftp(1) line 267 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 mand is useful when connecting to a non-UNIX remote computer[m
+[7m Manual page ftp(1) line 268 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 with different file naming conventions or practices.  The[m
+[7m Manual page ftp(1) line 269 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 mapping follows the pattern set by [4minpattern[24m and [4moutpattern[24m.[m
+[7m Manual page ftp(1) line 270 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 [[4mInpattern[24m] is a template for incoming filenames (which may[m
+[7m Manual page ftp(1) line 271 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 have already been processed according to the [1mntrans[0m and [1mcase[0m[m
+[7m Manual page ftp(1) line 272 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 settings).  Variable templating is accomplished by including[m
+[7m Manual page ftp(1) line 273 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 the sequences `$1', `$2', ..., `$9' in [4minpattern[24m.  Use `\' to[m
+[7m Manual page ftp(1) line 274 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 prevent this special treatment of the `$' character.  All[m
+[7m Manual page ftp(1) line 275 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 other characters are treated literally, and are used to[m
+[7m Manual page ftp(1) line 276 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 determine the [1mnmap[0m [[4minpattern[24m] variable values.  For example,[m
+[7m Manual page ftp(1) line 277 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 given [4minpattern[24m $1.$2 and the remote file name "mydata.data",[m
+[7m Manual page ftp(1) line 278 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 $1 would have the value "mydata", and $2 would have the value[m
+[7m Manual page ftp(1) line 279 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 "data".  The [4moutpattern[24m determines the resulting mapped file‐[m
+[7m Manual page ftp(1) line 280 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 name.  The sequences `$1', `$2', ...., `$9' are replaced by[m
+[7m Manual page ftp(1) line 281 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 any value resulting from the [4minpattern[24m template.  The[m
+[7m Manual page ftp(1) line 282 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 sequence `$0' is replace by the original filename.  Addition‐[m
+[7m Manual page ftp(1) line 283 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 ally, the sequence ‘[[4mseq1[24m, [4mseq2[24m]’ is replaced by [[4mseq1[24m] if[m
+[7m Manual page ftp(1) line 284 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 [4mseq1[24m is not a null string; otherwise it is replaced by [4mseq2[24m.[m
+[7m Manual page ftp(1) line 285 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 For example, the command[m
+[7m Manual page ftp(1) line 286 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 287 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                       nmap $1.$2.$3 [$1,$2].[$2,file][m
+[7m Manual page ftp(1) line 288 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 289 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 would yield the output filename "myfile.data" for input file‐[m
+[7m Manual page ftp(1) line 290 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 names "myfile.data" and "myfile.data.old", "myfile.file" for[m
+[7m Manual page ftp(1) line 291 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 the input filename "myfile", and "myfile.myfile" for the[m
+[7m Manual page ftp(1) line 292 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 input filename ".myfile".  Spaces may be included in[m
+[7m Manual page ftp(1) line 293 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 [4moutpattern[24m, as in the example: `nmap $1 sed "s/  *$//" > $1'[m
+[7m Manual page ftp(1) line 294 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 .  Use the `\' character to prevent special treatment of the[m
+[7m Manual page ftp(1) line 295 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 `$','[','[', and `,' characters.[m
+[7m Manual page ftp(1) line 296 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 297 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mntrans[0m [[4minchars[24m [[4moutchars[24m]][m
+[7m Manual page ftp(1) line 298 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Set or unset the filename character translation mechanism.[m
+[7m Manual page ftp(1) line 299 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 If no arguments are specified, the filename character trans‐[m
+[7m Manual page ftp(1) line 300 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 lation mechanism is unset.  If arguments are specified, char‐[m
+[7m Manual page ftp(1) line 301 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 acters in remote filenames are translated during [1mmput[0m com‐[m
+[7m Manual page ftp(1) line 302 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 mands and [1mput[0m commands issued without a specified remote tar‐[m
+[7m Manual page ftp(1) line 303 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 get filename.  If arguments are specified, characters in[m
+[7m Manual page ftp(1) line 304 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 local filenames are translated during [1mmget[0m commands and [1mget[0m[m
+[7m Manual page ftp(1) line 305 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 commands issued without a specified local target filename.[m
+[7m Manual page ftp(1) line 306 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 This command is useful when connecting to a non-UNIX remote[m
+[7m Manual page ftp(1) line 307 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 computer with different file naming conventions or practices.[m
+[7m Manual page ftp(1) line 308 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Characters in a filename matching a character in [4minchars[24m are[m
+[7m Manual page ftp(1) line 309 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 replaced with the corresponding character in [4moutchars[24m.  If[m
+[7m Manual page ftp(1) line 310 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 the character's position in [4minchars[24m is longer than the length[m
+[7m Manual page ftp(1) line 311 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 of [4moutchars[24m, the character is deleted from the file name.[m
+[7m Manual page ftp(1) line 312 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 313 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mopen[0m [4mhost[24m [[4mport[24m][m
+[7m Manual page ftp(1) line 314 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Establish a connection to the specified [4mhost[24m FTP server.  An[m
+[7m Manual page ftp(1) line 315 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 optional port number may be supplied, in which case, [1mftp[0m will[m
+[7m Manual page ftp(1) line 316 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 attempt to contact an FTP server at that port.  If the[m
+[7m Manual page ftp(1) line 317 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 [1mauto-login[0m option is on (default), [1mftp[0m will also attempt to[m
+[7m Manual page ftp(1) line 318 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 automatically log the user in to the FTP server (see below).[m
+[7m Manual page ftp(1) line 319 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 320 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mprompt[0m      Toggle interactive prompting.  Interactive prompting occurs[m
+[7m Manual page ftp(1) line 321 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 during multiple file transfers to allow the user to selec‐[m
+[7m Manual page ftp(1) line 322 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 tively retrieve or store files.  If prompting is turned off[m
+[7m Manual page ftp(1) line 323 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 (default is on), any [1mmget[0m or [1mmput[0m will transfer all files,[m
+[7m Manual page ftp(1) line 324 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 and any [1mmdelete[0m will delete all files.[m
+[7m Manual page ftp(1) line 325 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 326 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mproxy[0m [4mftp-command[24m[m
+[7m Manual page ftp(1) line 327 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Execute an ftp command on a secondary control connection.[m
+[7m Manual page ftp(1) line 328 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 This command allows simultaneous connection to two remote ftp[m
+[7m Manual page ftp(1) line 329 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 servers for transferring files between the two servers.  The[m
+[7m Manual page ftp(1) line 330 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 first [1mproxy[0m command should be an [1mopen[0m, to establish the sec‐[m
+[7m Manual page ftp(1) line 331 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 ondary control connection.  Enter the command "proxy ?" to[m
+[7m Manual page ftp(1) line 332 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 see other ftp commands executable on the secondary connec‐[m
+[7m Manual page ftp(1) line 333 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 tion.  The following commands behave differently when pref‐[m
+[7m Manual page ftp(1) line 334 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 the character's position in [4minchars[24m is longer than the length[m
+[24;1H
+[K[7m Manual page ftp(1) line 333 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 replaced with the corresponding character in [4moutchars[24m.  If[m
+[24;1H
+[K[7m Manual page ftp(1) line 332 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 Characters in a filename matching a character in [4minchars[24m are[m
+[24;1H
+[K[7m Manual page ftp(1) line 331 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 computer with different file naming conventions or practices.[m
+[24;1H
+[K[7m Manual page ftp(1) line 330 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 This command is useful when connecting to a non-UNIX remote[m
+[24;1H
+[K[7m Manual page ftp(1) line 329 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 commands issued without a specified local target filename.[m
+[24;1H
+[K[7m Manual page ftp(1) line 328 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 local filenames are translated during [1mmget[0m commands and [1mget[0m[m
+[24;1H
+[K[7m Manual page ftp(1) line 327 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 get filename.  If arguments are specified, characters in[m
+[24;1H
+[K[7m Manual page ftp(1) line 326 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 mands and [1mput[0m commands issued without a specified remote tar‐[m
+[24;1H
+[K[7m Manual page ftp(1) line 325 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 acters in remote filenames are translated during [1mmput[0m com‐[m
+[24;1H
+[K[7m Manual page ftp(1) line 324 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 lation mechanism is unset.  If arguments are specified, char‐[m
+[24;1H
+[K[7m Manual page ftp(1) line 323 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 If no arguments are specified, the filename character trans‐[m
+[24;1H
+[K[7m Manual page ftp(1) line 322 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 Set or unset the filename character translation mechanism.[m
+[24;1H
+[K[7m Manual page ftp(1) line 321 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM     [1mntrans[0m [[4minchars[24m [[4moutchars[24m]][m
+[24;1H
+[K[7m Manual page ftp(1) line 320 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page ftp(1) line 319 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 `$','[','[', and `,' characters.[m
+[24;1H
+[K[7m Manual page ftp(1) line 318 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 .  Use the `\' character to prevent special treatment of the[m
+[24;1H
+[K[7m Manual page ftp(1) line 317 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 [4moutpattern[24m, as in the example: `nmap $1 sed "s/  *$//" > $1'[m
+[24;1H
+[K[7m Manual page ftp(1) line 316 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 input filename ".myfile".  Spaces may be included in[m
+[24;1H
+[K[7m Manual page ftp(1) line 315 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 the input filename "myfile", and "myfile.myfile" for the[m
+[24;1H
+[K[7m Manual page ftp(1) line 314 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 names "myfile.data" and "myfile.data.old", "myfile.file" for[m
+[24;1H
+[K[7m Manual page ftp(1) line 313 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 would yield the output filename "myfile.data" for input file‐[m
+[24;1H
+[K[7m Manual page ftp(1) line 312 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page ftp(1) line 311 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                       nmap $1.$2.$3 [$1,$2].[$2,file][m
+[24;1H
+[K[7m Manual page ftp(1) line 310 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page ftp(1) line 309 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 For example, the command[m
+[24;1H
+[K[7m Manual page ftp(1) line 308 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 [4mseq1[24m is not a null string; otherwise it is replaced by [4mseq2[24m.[m
+[24;1H
+[K[7m Manual page ftp(1) line 307 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 ally, the sequence ‘[[4mseq1[24m, [4mseq2[24m]’ is replaced by [[4mseq1[24m] if[m
+[24;1H
+[K[7m Manual page ftp(1) line 306 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 sequence `$0' is replace by the original filename.  Addition‐[m
+[24;1H
+[K[7m Manual page ftp(1) line 305 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 any value resulting from the [4minpattern[24m template.  The[m
+[24;1H
+[K[7m Manual page ftp(1) line 304 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 name.  The sequences `$1', `$2', ...., `$9' are replaced by[m
+[24;1H
+[K[7m Manual page ftp(1) line 303 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 "data".  The [4moutpattern[24m determines the resulting mapped file‐[m
+[24;1H
+[K[7m Manual page ftp(1) line 302 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 $1 would have the value "mydata", and $2 would have the value[m
+[24;1H
+[K[7m Manual page ftp(1) line 301 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 given [4minpattern[24m $1.$2 and the remote file name "mydata.data",[m
+[24;1H
+[K[7m Manual page ftp(1) line 300 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 determine the [1mnmap[0m [[4minpattern[24m] variable values.  For example,[m
+[24;1H
+[K[7m Manual page ftp(1) line 299 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 other characters are treated literally, and are used to[m
+[24;1H
+[K[7m Manual page ftp(1) line 298 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 prevent this special treatment of the `$' character.  All[m
+[24;1H
+[K[7m Manual page ftp(1) line 297 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 the sequences `$1', `$2', ..., `$9' in [4minpattern[24m.  Use `\' to[m
+[24;1H
+[K[7m Manual page ftp(1) line 296 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 settings).  Variable templating is accomplished by including[m
+[24;1H
+[K[7m Manual page ftp(1) line 295 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 have already been processed according to the [1mntrans[0m and [1mcase[0m[m
+[24;1H
+[K[7m Manual page ftp(1) line 294 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 [[4mInpattern[24m] is a template for incoming filenames (which may[m
+[24;1H
+[K[7m Manual page ftp(1) line 293 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 mapping follows the pattern set by [4minpattern[24m and [4moutpattern[24m.[m
+[24;1H
+[K[7m Manual page ftp(1) line 292 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 with different file naming conventions or practices.  The[m
+[24;1H
+[K[7m Manual page ftp(1) line 291 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 mand is useful when connecting to a non-UNIX remote computer[m
+[24;1H
+[K[7m Manual page ftp(1) line 290 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 issued without a specified local target filename.  This com‐[m
+[24;1H
+[K[7m Manual page ftp(1) line 289 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 filenames are mapped during [1mmget[0m commands and [1mget[0m commands[m
+[24;1H
+[K[7m Manual page ftp(1) line 288 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 remote target filename.  If arguments are specified, local[m
+[24;1H
+[K[7m Manual page ftp(1) line 287 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 [1mmput[0m commands and [1mput[0m commands issued without a specified[m
+[24;1H
+[K[7m Manual page ftp(1) line 286 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 287 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                       nmap $1.$2.$3 [$1,$2].[$2,file][m
+[7m Manual page ftp(1) line 288 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 289 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 would yield the output filename "myfile.data" for input file‐[m
+[7m Manual page ftp(1) line 290 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 names "myfile.data" and "myfile.data.old", "myfile.file" for[m
+[7m Manual page ftp(1) line 291 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 the input filename "myfile", and "myfile.myfile" for the[m
+[7m Manual page ftp(1) line 292 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 input filename ".myfile".  Spaces may be included in[m
+[7m Manual page ftp(1) line 293 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 [4moutpattern[24m, as in the example: `nmap $1 sed "s/  *$//" > $1'[m
+[7m Manual page ftp(1) line 294 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 .  Use the `\' character to prevent special treatment of the[m
+[7m Manual page ftp(1) line 295 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 `$','[','[', and `,' characters.[m
+[7m Manual page ftp(1) line 296 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 297 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mntrans[0m [[4minchars[24m [[4moutchars[24m]][m
+[7m Manual page ftp(1) line 298 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Set or unset the filename character translation mechanism.[m
+[7m Manual page ftp(1) line 299 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 If no arguments are specified, the filename character trans‐[m
+[7m Manual page ftp(1) line 300 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 lation mechanism is unset.  If arguments are specified, char‐[m
+[7m Manual page ftp(1) line 301 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 acters in remote filenames are translated during [1mmput[0m com‐[m
+[7m Manual page ftp(1) line 302 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 mands and [1mput[0m commands issued without a specified remote tar‐[m
+[7m Manual page ftp(1) line 303 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 get filename.  If arguments are specified, characters in[m
+[7m Manual page ftp(1) line 304 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 local filenames are translated during [1mmget[0m commands and [1mget[0m[m
+[7m Manual page ftp(1) line 305 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 commands issued without a specified local target filename.[m
+[7m Manual page ftp(1) line 306 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 This command is useful when connecting to a non-UNIX remote[m
+[7m Manual page ftp(1) line 307 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 computer with different file naming conventions or practices.[m
+[7m Manual page ftp(1) line 308 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Characters in a filename matching a character in [4minchars[24m are[m
+[7m Manual page ftp(1) line 309 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 replaced with the corresponding character in [4moutchars[24m.  If[m
+[7m Manual page ftp(1) line 310 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 the character's position in [4minchars[24m is longer than the length[m
+[7m Manual page ftp(1) line 311 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 of [4moutchars[24m, the character is deleted from the file name.[m
+[7m Manual page ftp(1) line 312 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 313 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mopen[0m [4mhost[24m [[4mport[24m][m
+[7m Manual page ftp(1) line 314 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Establish a connection to the specified [4mhost[24m FTP server.  An[m
+[7m Manual page ftp(1) line 315 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 optional port number may be supplied, in which case, [1mftp[0m will[m
+[7m Manual page ftp(1) line 316 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 attempt to contact an FTP server at that port.  If the[m
+[7m Manual page ftp(1) line 317 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 [1mauto-login[0m option is on (default), [1mftp[0m will also attempt to[m
+[7m Manual page ftp(1) line 318 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 automatically log the user in to the FTP server (see below).[m
+[7m Manual page ftp(1) line 319 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 320 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mprompt[0m      Toggle interactive prompting.  Interactive prompting occurs[m
+[7m Manual page ftp(1) line 321 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 during multiple file transfers to allow the user to selec‐[m
+[7m Manual page ftp(1) line 322 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 tively retrieve or store files.  If prompting is turned off[m
+[7m Manual page ftp(1) line 323 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 (default is on), any [1mmget[0m or [1mmput[0m will transfer all files,[m
+[7m Manual page ftp(1) line 324 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 and any [1mmdelete[0m will delete all files.[m
+[7m Manual page ftp(1) line 325 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 326 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mproxy[0m [4mftp-command[24m[m
+[7m Manual page ftp(1) line 327 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Execute an ftp command on a secondary control connection.[m
+[7m Manual page ftp(1) line 328 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 This command allows simultaneous connection to two remote ftp[m
+[7m Manual page ftp(1) line 329 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 servers for transferring files between the two servers.  The[m
+[7m Manual page ftp(1) line 330 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 first [1mproxy[0m command should be an [1mopen[0m, to establish the sec‐[m
+[7m Manual page ftp(1) line 331 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 ondary control connection.  Enter the command "proxy ?" to[m
+[7m Manual page ftp(1) line 332 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 see other ftp commands executable on the secondary connec‐[m
+[7m Manual page ftp(1) line 333 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 tion.  The following commands behave differently when pref‐[m
+[7m Manual page ftp(1) line 334 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 aced by [1mproxy[0m: [1mopen[0m will not define new macros during the[m
+[7m Manual page ftp(1) line 335 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 auto-login process, [1mclose[0m will not erase existing macro defi‐[m
+[7m Manual page ftp(1) line 336 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 nitions, [1mget[0m and [1mmget[0m transfer files from the host on the[m
+[7m Manual page ftp(1) line 337 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 primary control connection to the host on the secondary con‐[m
+[7m Manual page ftp(1) line 338 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 trol connection, and [1mput[0m, [1mmput[0m, and [1mappend[0m transfer files[m
+[7m Manual page ftp(1) line 339 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 from the host on the secondary control connection to the host[m
+[7m Manual page ftp(1) line 340 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 on the primary control connection.  Third party file trans‐[m
+[7m Manual page ftp(1) line 341 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 fers depend upon support of the ftp protocol PASV command by[m
+[7m Manual page ftp(1) line 342 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 the server on the secondary control connection.[m
+[7m Manual page ftp(1) line 343 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 344 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mput[0m [4mlocal-file[24m [[4mremote-file[24m][m
+[7m Manual page ftp(1) line 345 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Store a local file on the remote machine.  If [4mremote-file[24m is[m
+[7m Manual page ftp(1) line 346 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 left unspecified, the local file name is used after process‐[m
+[7m Manual page ftp(1) line 347 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 ing according to any [1mntrans[0m or [1mnmap[0m settings in naming the[m
+[7m Manual page ftp(1) line 348 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 remote file.  File transfer uses the current settings for[m
+[7m Manual page ftp(1) line 349 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 [1mtype[0m, [1mformat[0m, [1mmode[0m, and [1mstructure[0m.[m
+[7m Manual page ftp(1) line 350 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 351 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mpwd[0m         Print the name of the current working directory on the remote[m
+[7m Manual page ftp(1) line 352 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 machine.[m
+[7m Manual page ftp(1) line 353 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 354 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mquit[0m        A synonym for [1mbye[0m.[m
+[7m Manual page ftp(1) line 355 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 356 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mquote[0m [4marg1[24m [4marg2[24m [4m...[24m[m
+[7m Manual page ftp(1) line 357 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 The arguments specified are sent, verbatim, to the remote FTP[m
+[7m Manual page ftp(1) line 358 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 server.[m
+[7m Manual page ftp(1) line 359 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 360 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mrecv[0m [4mremote-file[24m [[4mlocal-file[24m][m
+[7m Manual page ftp(1) line 361 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 A synonym for get.[m
+[7m Manual page ftp(1) line 362 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 363 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mreget[0m [4mremote-file[24m [[4mlocal-file[24m][m
+[7m Manual page ftp(1) line 364 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Reget acts like get, except that if [4mlocal-file[24m exists and is[m
+[7m Manual page ftp(1) line 365 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 smaller than [4mremote-file[24m, [4mlocal-file[24m is presumed to be a par‐[m
+[7m Manual page ftp(1) line 366 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 tially transferred copy of [4mremote-file[24m and the transfer is[m
+[7m Manual page ftp(1) line 367 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 continued from the apparent point of failure.  If [4mlocal-file[24m[m
+[7m Manual page ftp(1) line 368 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 does not exist ftp won't fetch the file.  This command is[m
+[7m Manual page ftp(1) line 369 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 useful when transferring very large files over networks that[m
+[7m Manual page ftp(1) line 370 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 are prone to dropping connections.[m
+[7m Manual page ftp(1) line 371 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 372 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mremotehelp[0m [[4mcommand-name[24m][m
+[7m Manual page ftp(1) line 373 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Request help from the remote FTP server.  If a [4mcommand-name[24m[m
+[7m Manual page ftp(1) line 374 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 is specified it is supplied to the server as well.[m
+[7m Manual page ftp(1) line 375 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 376 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mremotestatus[0m [[4mfile-name[24m][m
+[7m Manual page ftp(1) line 377 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 With no arguments, show status of remote machine.  If[m
+[7m Manual page ftp(1) line 378 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 [4mfile-name[24m is specified, show status of [4mfile-name[24m on remote[m
+[7m Manual page ftp(1) line 379 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 machine.[m
+[7m Manual page ftp(1) line 380 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 381 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mrename[0m [[4mfrom[24m] [[4mto[24m][m
+[7m Manual page ftp(1) line 382 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Rename the file [4mfrom[24m on the remote machine, to the file [4mto[24m.[m
+[7m Manual page ftp(1) line 383 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 384 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mreset[0m       Clear reply queue.  This command re-synchronizes com‐[m
+[7m Manual page ftp(1) line 385 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 mand/reply sequencing with the remote ftp server.  Resynchro‐[m
+[7m Manual page ftp(1) line 386 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 nization may be necessary following a violation of the ftp[m
+[7m Manual page ftp(1) line 387 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 protocol by the remote server.[m
+[7m Manual page ftp(1) line 388 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 389 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mrestart[0m [4mmarker[24m[m
+[7m Manual page ftp(1) line 390 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Restart the immediately following [1mget[0m or [1mput[0m at the indicated[m
+[7m Manual page ftp(1) line 391 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 [4mmarker[24m.  On UNIX systems, marker is usually a byte offset[m
+[7m Manual page ftp(1) line 392 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 into the file.[m
+[7m Manual page ftp(1) line 393 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 394 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mrmdir[0m [4mdirectory-name[24m[m
+[7m Manual page ftp(1) line 395 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Delete a directory on the remote machine.[m
+[7m Manual page ftp(1) line 396 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 397 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mrunique[0m     Toggle storing of files on the local system with unique file‐[m
+[7m Manual page ftp(1) line 398 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 names.  If a file already exists with a name equal to the[m
+[7m Manual page ftp(1) line 399 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 target local filename for a [1mget[0m or [1mmget[0m command, a ".1" is[m
+[7m Manual page ftp(1) line 400 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 appended to the name.  If the resulting name matches another[m
+[7m Manual page ftp(1) line 401 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 existing file, a ".2" is appended to the original name.  If[m
+[7m Manual page ftp(1) line 402 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 this process continues up to ".99", an error message is[m
+[7m Manual page ftp(1) line 403 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 printed, and the transfer does not take place.  The generated[m
+[7m Manual page ftp(1) line 404 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 unique filename will be reported.  Note that [1mrunique[0m will not[m
+[7m Manual page ftp(1) line 405 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 affect local files generated from a shell command (see[m
+[7m Manual page ftp(1) line 406 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 below).  The default value is off.[m
+[7m Manual page ftp(1) line 407 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 408 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1msend[0m [4mlocal-file[24m [[4mremote-file[24m][m
+[7m Manual page ftp(1) line 409 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 A synonym for put.[m
+[7m Manual page ftp(1) line 410 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 411 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1msendport[0m    Toggle the use of PORT commands.  By default, [1mftp[0m will[m
+[7m Manual page ftp(1) line 412 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 attempt to use a PORT command when establishing a connection[m
+[7m Manual page ftp(1) line 413 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 for each data transfer.  The use of PORT commands can prevent[m
+[7m Manual page ftp(1) line 414 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 delays when performing multiple file transfers.  If the PORT[m
+[7m Manual page ftp(1) line 415 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 command fails, [1mftp[0m will use the default data port.  When the[m
+[7m Manual page ftp(1) line 416 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 use of PORT commands is disabled, no attempt will be made to[m
+[7m Manual page ftp(1) line 417 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 use PORT commands for each data transfer.  This is useful for[m
+[7m Manual page ftp(1) line 418 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 certain FTP implementations which do ignore PORT commands[m
+[7m Manual page ftp(1) line 419 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 but, incorrectly, indicate they've been accepted.[m
+[7m Manual page ftp(1) line 420 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 421 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1msite[0m [4marg1[24m [4marg2[24m [4m...[24m[m
+[7m Manual page ftp(1) line 422 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 The arguments specified are sent, verbatim, to the remote FTP[m
+[7m Manual page ftp(1) line 423 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 server as a SITE command.[m
+[7m Manual page ftp(1) line 424 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 425 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1msize[0m [4mfile-name[24m[m
+[7m Manual page ftp(1) line 426 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Return size of [4mfile-name[24m on remote machine.[m
+[7m Manual page ftp(1) line 427 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 428 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mstatus[0m      Show the current status of [1mftp[0m.[m
+[7m Manual page ftp(1) line 429 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 430 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mstruct[0m [[4mstruct-name[24m][m
+[7m Manual page ftp(1) line 431 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Set the file transfer [4mstructure[24m to [4mstruct-name[24m.  By default[m
+[7m Manual page ftp(1) line 432 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 “stream” structure is used.[m
+[7m Manual page ftp(1) line 433 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 434 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1msunique[0m     Toggle storing of files on remote machine under unique file[m
+[7m Manual page ftp(1) line 435 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 names.  Remote ftp server must support ftp protocol STOU com‐[m
+[7m Manual page ftp(1) line 436 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 mand for successful completion.  The remote server will[m
+[7m Manual page ftp(1) line 437 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 report unique name.  Default value is off.[m
+[7m Manual page ftp(1) line 438 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 439 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1msystem[0m      Show the type of operating system running on the remote[m
+[7m Manual page ftp(1) line 440 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 machine.[m
+[7m Manual page ftp(1) line 441 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 442 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mtenex[0m       Set the file transfer type to that needed to talk to TENEX[m
+[7m Manual page ftp(1) line 443 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 machines.[m
+[7m Manual page ftp(1) line 444 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 445 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mtrace[0m       Toggle packet tracing.[m
+[7m Manual page ftp(1) line 446 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 447 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mtype[0m [[4mtype-name[24m][m
+[7m Manual page ftp(1) line 448 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Set the file transfer [1mtype[0m to [4mtype-name[24m.  If no type is spec‐[m
+[7m Manual page ftp(1) line 449 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 ified, the current type is printed.  The default type is net‐[m
+[7m Manual page ftp(1) line 450 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 work ASCII.[m
+[7m Manual page ftp(1) line 451 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 452 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mumask[0m [[4mnewmask[24m][m
+[7m Manual page ftp(1) line 453 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Set the default umask on the remote server to [4mnewmask[24m.  If[m
+[7m Manual page ftp(1) line 454 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 [4mnewmask[24m is omitted, the current umask is printed.[m
+[7m Manual page ftp(1) line 455 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 456 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1muser[0m [4muser-name[24m [[4mpassword[24m] [[4maccount[24m][m
+[7m Manual page ftp(1) line 457 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 Identify yourself to the remote FTP server.  If the [4mpassword[24m[m
+[7m Manual page ftp(1) line 458 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 is not specified and the server requires it, [1mftp[0m will prompt[m
+[7m Manual page ftp(1) line 459 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 the user for it (after disabling local echo).  If an [4maccount[24m[m
+[7m Manual page ftp(1) line 460 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 field is not specified, and the FTP server requires it, the[m
+[7m Manual page ftp(1) line 461 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 user will be prompted for it.  If an [4maccount[24m field is speci‐[m
+[7m Manual page ftp(1) line 462 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 fied, an account command will be relayed to the remote server[m
+[7m Manual page ftp(1) line 463 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 after the login sequence is completed if the remote server[m
+[7m Manual page ftp(1) line 464 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 did not require it for logging in.  Unless [1mftp[0m is invoked[m
+[7m Manual page ftp(1) line 465 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 with “auto-login” disabled, this process is done automati‐[m
+[7m Manual page ftp(1) line 466 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM     [1mtenex[0m       Set the file transfer type to that needed to talk to TENEX[m
+[24;1H
+[K[7m Manual page ftp(1) line 465 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page ftp(1) line 464 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM                 machine.[m
+[24;1H
+[K[7m Manual page ftp(1) line 463 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 after the login sequence is completed if the remote server[m
+[7m Manual page ftp(1) line 464 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 did not require it for logging in.  Unless [1mftp[0m is invoked[m
+[7m Manual page ftp(1) line 465 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 with “auto-login” disabled, this process is done automati‐[m
+[7m Manual page ftp(1) line 466 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 cally on initial connection to the FTP server.[m
+[7m Manual page ftp(1) line 467 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 468 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mverbose[0m     Toggle verbose mode.  In verbose mode, all responses from the[m
+[7m Manual page ftp(1) line 469 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 FTP server are displayed to the user.  In addition, if ver‐[m
+[7m Manual page ftp(1) line 470 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 bose is on, when a file transfer completes, statistics[m
+[7m Manual page ftp(1) line 471 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 regarding the efficiency of the transfer are reported.  By[m
+[7m Manual page ftp(1) line 472 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 default, verbose is on.[m
+[7m Manual page ftp(1) line 473 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 474 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     ? [[4mcommand[24m][m
+[7m Manual page ftp(1) line 475 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                 A synonym for help.[m
+[7m Manual page ftp(1) line 476 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 477 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     Command arguments which have embedded spaces may be quoted with quote `"'[m
+[7m Manual page ftp(1) line 478 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     marks.[m
+[7m Manual page ftp(1) line 479 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 480 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[1mABORTING[0m [1mA[0m [1mFILE[0m [1mTRANSFER[0m[m
+[7m Manual page ftp(1) line 481 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     To abort a file transfer, use the terminal interrupt key (usually Ctrl-[m
+[7m Manual page ftp(1) line 482 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     C).  Sending transfers will be immediately halted.  Receiving transfers[m
+[7m Manual page ftp(1) line 483 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     will be halted by sending a ftp protocol ABOR command to the remote[m
+[7m Manual page ftp(1) line 484 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     server, and discarding any further data received.  The speed at which[m
+[7m Manual page ftp(1) line 485 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     this is accomplished depends upon the remote server's support for ABOR[m
+[7m Manual page ftp(1) line 486 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     processing.  If the remote server does not support the ABOR command, an[m
+[7m Manual page ftp(1) line 487 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     ‘ftp>’ prompt will not appear until the remote server has completed send‐[m
+[7m Manual page ftp(1) line 488 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     ing the requested file.[m
+[7m Manual page ftp(1) line 489 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 490 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     The terminal interrupt key sequence will be ignored when [1mftp[0m has com‐[m
+[7m Manual page ftp(1) line 491 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     pleted any local processing and is awaiting a reply from the remote[m
+[7m Manual page ftp(1) line 492 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     server.  A long delay in this mode may result from the ABOR processing[m
+[7m Manual page ftp(1) line 493 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     described above, or from unexpected behavior by the remote server,[m
+[7m Manual page ftp(1) line 494 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     including violations of the ftp protocol.  If the delay results from[m
+[7m Manual page ftp(1) line 495 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     unexpected remote server behavior, the local [1mftp[0m program must be killed[m
+[7m Manual page ftp(1) line 496 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     by hand.[m
+[7m Manual page ftp(1) line 497 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 498 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[1mFILE[0m [1mNAMING[0m [1mCONVENTIONS[0m[m
+[7m Manual page ftp(1) line 499 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     Files specified as arguments to [1mftp[0m commands are processed according to[m
+[7m Manual page ftp(1) line 500 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     the following rules.[m
+[7m Manual page ftp(1) line 501 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 502 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     1.   If the file name ‘[1m-[0m’ is specified, the [4mstdin[24m (for reading) or [4mstdout[24m[m
+[7m Manual page ftp(1) line 503 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K          (for writing) is used.[m
+[7m Manual page ftp(1) line 504 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 505 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     2.   If the first character of the file name is ‘|’, the remainder of the[m
+[7m Manual page ftp(1) line 506 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K          argument is interpreted as a shell command.  [1mFtp[0m then forks a shell,[m
+[7m Manual page ftp(1) line 507 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K          using popen(3) with the argument supplied, and reads (writes) from[m
+[7m Manual page ftp(1) line 508 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K          the stdout (stdin).  If the shell command includes spaces, the argu‐[m
+[7m Manual page ftp(1) line 509 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K          ment must be quoted; e.g.  “" ls -lt"”.  A particularly useful exam‐[m
+[7m Manual page ftp(1) line 510 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K          ple of this mechanism is: “dir more”.[m
+[7m Manual page ftp(1) line 511 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 512 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     3.   Failing the above checks, if ``globbing'' is enabled, local file[m
+[7m Manual page ftp(1) line 513 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K          names are expanded according to the rules used in the csh(1); c.f.[m
+[7m Manual page ftp(1) line 514 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K          the [1mglob[0m command.  If the [1mftp[0m command expects a single local file[m
+[7m Manual page ftp(1) line 515 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K          (.e.g.  [1mput[0m), only the first filename generated by the "globbing"[m
+[7m Manual page ftp(1) line 516 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K          operation is used.[m
+[7m Manual page ftp(1) line 517 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 518 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     4.   For [1mmget[0m commands and [1mget[0m commands with unspecified local file[m
+[7m Manual page ftp(1) line 519 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K          names, the local filename is the remote filename, which may be[m
+[7m Manual page ftp(1) line 520 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K          altered by a [1mcase[0m, [1mntrans[0m, or [1mnmap[0m setting.  The resulting filename[m
+[7m Manual page ftp(1) line 521 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K          may then be altered if [1mrunique[0m is on.[m
+[7m Manual page ftp(1) line 522 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 523 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     5.   For [1mmput[0m commands and [1mput[0m commands with unspecified remote file[m
+[7m Manual page ftp(1) line 524 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K          names, the remote filename is the local filename, which may be[m
+[7m Manual page ftp(1) line 525 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K          altered by a [1mntrans[0m or [1mnmap[0m setting.  The resulting filename may[m
+[7m Manual page ftp(1) line 526 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K          then be altered by the remote server if [1msunique[0m is on.[m
+[7m Manual page ftp(1) line 527 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 528 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[1mFILE[0m [1mTRANSFER[0m [1mPARAMETERS[0m[m
+[7m Manual page ftp(1) line 529 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     The FTP specification specifies many parameters which may affect a file[m
+[7m Manual page ftp(1) line 530 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     transfer.  The [1mtype[0m may be one of “ascii”, “image” (binary), “ebcdic”,[m
+[7m Manual page ftp(1) line 531 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     and “local byte size” (for PDP-10's and PDP-20's mostly).  [1mFtp[0m supports[m
+[7m Manual page ftp(1) line 532 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     the ascii and image types of file transfer, plus local byte size 8 for[m
+[7m Manual page ftp(1) line 533 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mtenex[0m mode transfers.[m
+[7m Manual page ftp(1) line 534 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 535 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mFtp[0m supports only the default values for the remaining file transfer[m
+[7m Manual page ftp(1) line 536 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     parameters: [1mmode[0m, [1mform[0m, and [1mstruct[0m.[m
+[7m Manual page ftp(1) line 537 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 538 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[1mENVIRONMENT[0m[m
+[7m Manual page ftp(1) line 539 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1mFtp[0m utilizes the following environment variables.[m
+[7m Manual page ftp(1) line 540 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 541 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     HOME        For default location of a [4m.netrc[24m file, if one exists.[m
+[7m Manual page ftp(1) line 542 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 543 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     SHELL       For default shell.[m
+[7m Manual page ftp(1) line 544 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 545 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[1mSEE[0m [1mALSO[0m[m
+[7m Manual page ftp(1) line 546 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     ftpd(8), netrc(5), RFC 959[m
+[7m Manual page ftp(1) line 547 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 548 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[1mHISTORY[0m[m
+[7m Manual page ftp(1) line 549 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     The [1mftp[0m command appeared in 4.2BSD.[m
+[7m Manual page ftp(1) line 550 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 551 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[1mBUGS[0m[m
+[7m Manual page ftp(1) line 552 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     Correct execution of many commands depends upon proper behavior by the[m
+[7m Manual page ftp(1) line 553 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     remote server.[m
+[7m Manual page ftp(1) line 554 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 555 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     An error in the treatment of carriage returns in the 4.2BSD ascii-mode[m
+[7m Manual page ftp(1) line 556 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     transfer code has been corrected.  This correction may result in incor‐[m
+[7m Manual page ftp(1) line 557 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     rect transfers of binary files to and from 4.2BSD servers using the ascii[m
+[7m Manual page ftp(1) line 558 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     type.  Avoid this problem by using the binary image type.[m
+[7m Manual page ftp(1) line 559 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 560 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[KLinux NetKit (0.17)             August 15, 1999            Linux NetKit (0.17)[m
+[7m Manual page ftp(1) line 561 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K
+[K[7m Manual page ftp(1) line 561/583 (END) (press h for help or q to quit)[27m[K
+[K[?1l>[?1049l]0;s4c1@lab2-AcerPower-Series: ~s4c1@lab2-AcerPower-Series:~$ man ftpsftp cs18c05@192.168.0.30[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd 2401
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ cd 2401man ftpsftp cs18c05@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c05@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> cd 2401
+sftp> put work[K[K[Kork.txt
+Uploading work.txt to /home/cs18c05/2401/work.txt
+
+work.txt                                        0%    0     0.0KB/s   --:-- ETA
+work.txt                                      100%  311KB 310.6KB/s   00:00    
+sftp> put work.txt.txt[K.txt[K.txt[K.txt[Kr.txte.txtp.txto.txtr.txtt.txt
+Uploading report.txt to /home/cs18c05/2401/report.txt
+
+report.txt                                      0%    0     0.0KB/s   --:-- ETA
+report.txt                                    100% 9596     9.4KB/s   00:00    
+sftp> put report.txtt.txt[K.txt[K.txt[K.txt[K.txt[K.txt[Ka.txtb.txtc.txt
+Uploading abc.txt to /home/cs18c05/2401/abc.txt
+
+abc.txt                                         0%    0     0.0KB/s   --:-- ETA
+abc.txt                                       100%   39     0.0KB/s   00:00    
+sftp> put abc.txt.txt[K.txt[K.txt[Kf.txti.txtl.txte.txt
+Uploading file.txt to /home/cs18c05/2401/file.txt
+
+file.txt                                        0%    0     0.0KB/s   --:-- ETA
+file.txt                                      100%   10     0.0KB/s   00:00    
+sftp> put file.txtr.txt
+Uploading filer.txt to /home/cs18c05/2401/filer.txt
+
+filer.txt                                       0%    0     0.0KB/s   --:-- ETA
+filer.txt                                     100%   10     0.0KB/s   00:00    
+sftp> put filer.txtr.txt[K.txt[K.txt[K.txt[K.txt[Kg.txte.txte.txtk.txt
+Uploading geek.txt to /home/cs18c05/2401/geek.txt
+
+geek.txt                                        0%    0     0.0KB/s   --:-- ETA
+geek.txt                                      100%   48     0.1KB/s   00:00    
+sftp> put geek.txt.txt[K.txt[K.txt[K.txt[Ko.txtu.txtt.txtp.txtu.txtt.txt
+Uploading output.txt to /home/cs18c05/2401/output.txt
+
+output.txt                                      0%    0     0.0KB/s   --:-- ETA
+output.txt                                    100%   10     0.0KB/s   00:00    
+sftp> put output.txt.txt[K.txt[K.txt[K.txt[K.txt[K.txt[Ks.txta.txtm.txtp.txtl.txte.txt
+Uploading sample.txt to /home/cs18c05/2401/sample.txt
+
+sample.txt                                      0%    0     0.0KB/s   --:-- ETA
+sample.txt                                    100%   30     0.0KB/s   00:00    
+sftp> put sample.txt.txt[K.txt[K.txt[K.txt[K.txt[Kt.txta.txtt.txte.txt
+Uploading state.txt to /home/cs18c05/2401/state.txt
+
+state.txt                                       0%    0     0.0KB/s   --:-- ETA
+state.txt                                     100%   11     0.0KB/s   00:00    
+sftp> ls
+abc.txt      file.txt     filer.txt    geek.txt     output.txt   report.txt   
+sample.txt   state.txt    work.txt     
+sftp> bu[Kye[K[K[Klsput state.txt[12G[1@ampl[21G[12G[Ptat[20G.txt[K.txt[K.txt[K.txt[K.txt[Kt.txt1.txt
+Uploading t1.txt to /home/cs18c05/2401/t1.txt
+
+t1.txt                                          0%    0     0.0KB/s   --:-- ETA
+t1.txt                                        100%   11     0.0KB/s   00:00    
+sftp> rm t1.txt
+Removing /home/cs18c05/2401/t1.txt
+sftp> get work.[K[K[K[K[Kreport.ttx[K[Kxt
+Fetching /home/cs18c05/2401/report.txt to report.txt
+
+/home/cs18c05/2401/report.txt                   0%    0     0.0KB/s   --:-- ETA
+/home/cs18c05/2401/report.txt                 100% 9596     9.4KB/s   00:00    
+sftp> bye
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ exiy[Kt
+exit
+There are stopped jobs.
+]0;s4c1@lab2-AcerPower-Series: ~/2401s4c1@lab2-AcerPower-Series:~/2401$ exit
+exit
+Write failed: Connection reset by peer
+
+]0;s4c1@lab2-AcerPower-Series: ~/3101/t3&t5s4c1@lab2-AcerPower-Series:~/3101/t3&t5$ ifcxonfg[K[K[K[K[Kng[K[Konfig 0[K-a
+eth0      Link encap:Ethernet  HWaddr 00:19:db:31:c1:91  
+          inet addr:192.168.0.180  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::219:dbff:fe31:c191/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:254976 errors:0 dropped:1 overruns:0 frame:0
+          TX packets:36266 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:72583838 (72.5 MB)  TX bytes:5275053 (5.2 MB)
+          Interrupt:18 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:3166 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:3166 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:230268 (230.2 KB)  TX bytes:230268 (230.2 KB)
+
+]0;s4c1@lab2-AcerPower-Series: ~/3101/t3&t5s4c1@lab2-AcerPower-Series:~/3101/t3&t5$ route -n
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 eth0
+192.168.0.0     0.0.0.0         255.255.255.0   U     1      0        0 eth0
+]0;s4c1@lab2-AcerPower-Series: ~/3101/t3&t5s4c1@lab2-AcerPower-Series:~/3101/t3&t5$ route add deg[Kfaul;t[K[Kt gw 192.168.0.2
+SIOCADDRT: Operation not permitted
+]0;s4c1@lab2-AcerPower-Series: ~/3101/t3&t5s4c1@lab2-AcerPower-Series:~/3101/t3&t5$ [[Kping 192.168.0.20
+PING 192.168.0.20 (192.168.0.20) 56(84) bytes of data.
+64 bytes from 192.168.0.20: icmp_req=1 ttl=128 time=0.683 ms
+64 bytes from 192.168.0.20: icmp_req=2 ttl=128 time=0.675 ms
+64 bytes from 192.168.0.20: icmp_req=3 ttl=128 time=0.639 ms
+64 bytes from 192.168.0.20: icmp_req=4 ttl=128 time=0.647 ms
+64 bytes from 192.168.0.20: icmp_req=5 ttl=128 time=0.638 ms
+64 bytes from 192.168.0.20: icmp_req=6 ttl=128 time=0.624 ms
+64 bytes from 192.168.0.20: icmp_req=7 ttl=128 time=0.641 ms
+64 bytes from 192.168.0.20: icmp_req=8 ttl=128 time=0.643 ms
+64 bytes from 192.168.0.20: icmp_req=9 ttl=128 time=0.773 ms
+64 bytes from 192.168.0.20: icmp_req=10 ttl=128 time=0.651 ms
+64 bytes from 192.168.0.20: icmp_req=11 ttl=128 time=0.652 ms
+64 bytes from 192.168.0.20: icmp_req=12 ttl=128 time=0.645 ms
+64 bytes from 192.168.0.20: icmp_req=13 ttl=128 time=0.646 ms
+64 bytes from 192.168.0.20: icmp_req=14 ttl=128 time=0.648 ms
+64 bytes from 192.168.0.20: icmp_req=15 ttl=128 time=0.644 ms
+64 bytes from 192.168.0.20: icmp_req=16 ttl=128 time=0.673 ms
+64 bytes from 192.168.0.20: icmp_req=17 ttl=128 time=0.652 ms
+64 bytes from 192.168.0.20: icmp_req=18 ttl=128 time=0.644 ms
+64 bytes from 192.168.0.20: icmp_req=19 ttl=128 time=0.662 ms
+64 bytes from 192.168.0.20: icmp_req=20 ttl=128 time=0.662 ms
+64 bytes from 192.168.0.20: icmp_req=21 ttl=128 time=0.668 ms
+64 bytes from 192.168.0.20: icmp_req=22 ttl=128 time=0.668 ms
+64 bytes from 192.168.0.20: icmp_req=23 ttl=128 time=0.652 ms
+64 bytes from 192.168.0.20: icmp_req=24 ttl=128 time=0.666 ms
+64 bytes from 192.168.0.20: icmp_req=25 ttl=128 time=0.646 ms
+64 bytes from 192.168.0.20: icmp_req=26 ttl=128 time=0.637 ms
+64 bytes from 192.168.0.20: icmp_req=27 ttl=128 time=0.646 ms
+64 bytes from 192.168.0.20: icmp_req=28 ttl=128 time=0.648 ms
+64 bytes from 192.168.0.20: icmp_req=29 ttl=128 time=0.646 ms
+64 bytes from 192.168.0.20: icmp_req=30 ttl=128 time=0.645 ms
+64 bytes from 192.168.0.20: icmp_req=31 ttl=128 time=0.639 ms
+64 bytes from 192.168.0.20: icmp_req=32 ttl=128 time=0.636 ms
+64 bytes from 192.168.0.20: icmp_req=33 ttl=128 time=0.643 ms
+64 bytes from 192.168.0.20: icmp_req=34 ttl=128 time=0.651 ms
+64 bytes from 192.168.0.20: icmp_req=35 ttl=128 time=0.639 ms
+64 bytes from 192.168.0.20: icmp_req=36 ttl=128 time=0.641 ms
+64 bytes from 192.168.0.20: icmp_req=37 ttl=128 time=0.640 ms
+64 bytes from 192.168.0.20: icmp_req=38 ttl=128 time=0.635 ms
+64 bytes from 192.168.0.20: icmp_req=39 ttl=128 time=0.641 ms
+64 bytes from 192.168.0.20: icmp_req=40 ttl=128 time=0.683 ms
+64 bytes from 192.168.0.20: icmp_req=41 ttl=128 time=0.654 ms
+64 bytes from 192.168.0.20: icmp_req=42 ttl=128 time=0.672 ms
+64 bytes from 192.168.0.20: icmp_req=43 ttl=128 time=0.648 ms
+64 bytes from 192.168.0.20: icmp_req=44 ttl=128 time=0.649 ms
+64 bytes from 192.168.0.20: icmp_req=45 ttl=128 time=0.637 ms
+64 bytes from 192.168.0.20: icmp_req=46 ttl=128 time=0.654 ms
+64 bytes from 192.168.0.20: icmp_req=47 ttl=128 time=0.657 ms
+64 bytes from 192.168.0.20: icmp_req=48 ttl=128 time=0.648 ms
+64 bytes from 192.168.0.20: icmp_req=49 ttl=128 time=1.02 ms
+64 bytes from 192.168.0.20: icmp_req=50 ttl=128 time=0.644 ms
+64 bytes from 192.168.0.20: icmp_req=51 ttl=128 time=0.634 ms
+64 bytes from 192.168.0.20: icmp_req=52 ttl=128 time=0.639 ms
+64 bytes from 192.168.0.20: icmp_req=53 ttl=128 time=0.631 ms
+64 bytes from 192.168.0.20: icmp_req=54 ttl=128 time=0.654 ms
+64 bytes from 192.168.0.20: icmp_req=55 ttl=128 time=0.640 ms
+64 bytes from 192.168.0.20: icmp_req=56 ttl=128 time=0.666 ms
+64 bytes from 192.168.0.20: icmp_req=57 ttl=128 time=0.653 ms
+64 bytes from 192.168.0.20: icmp_req=58 ttl=128 time=0.656 ms
+64 bytes from 192.168.0.20: icmp_req=59 ttl=128 time=0.653 ms
+64 bytes from 192.168.0.20: icmp_req=60 ttl=128 time=0.656 ms
+64 bytes from 192.168.0.20: icmp_req=61 ttl=128 time=0.680 ms
+64 bytes from 192.168.0.20: icmp_req=62 ttl=128 time=0.678 ms
+64 bytes from 192.168.0.20: icmp_req=63 ttl=128 time=0.644 ms
+64 bytes from 192.168.0.20: icmp_req=64 ttl=128 time=0.635 ms
+64 bytes from 192.168.0.20: icmp_req=65 ttl=128 time=0.637 ms
+64 bytes from 192.168.0.20: icmp_req=66 ttl=128 time=0.657 ms
+64 bytes from 192.168.0.20: icmp_req=67 ttl=128 time=0.650 ms
+64 bytes from 192.168.0.20: icmp_req=68 ttl=128 time=0.649 ms
+64 bytes from 192.168.0.20: icmp_req=69 ttl=128 time=0.655 ms
+64 bytes from 192.168.0.20: icmp_req=70 ttl=128 time=0.647 ms
+64 bytes from 192.168.0.20: icmp_req=71 ttl=128 time=0.657 ms
+64 bytes from 192.168.0.20: icmp_req=72 ttl=128 time=0.643 ms
+64 bytes from 192.168.0.20: icmp_req=73 ttl=128 time=0.651 ms
+64 bytes from 192.168.0.20: icmp_req=74 ttl=128 time=0.649 ms
+64 bytes from 192.168.0.20: icmp_req=75 ttl=128 time=0.640 ms
+64 bytes from 192.168.0.20: icmp_req=76 ttl=128 time=0.650 ms
+64 bytes from 192.168.0.20: icmp_req=77 ttl=128 time=0.639 ms
+64 bytes from 192.168.0.20: icmp_req=78 ttl=128 time=0.635 ms
+64 bytes from 192.168.0.20: icmp_req=79 ttl=128 time=0.637 ms
+64 bytes from 192.168.0.20: icmp_req=80 ttl=128 time=0.642 ms
+64 bytes from 192.168.0.20: icmp_req=81 ttl=128 time=0.662 ms
+64 bytes from 192.168.0.20: icmp_req=82 ttl=128 time=0.650 ms
+64 bytes from 192.168.0.20: icmp_req=83 ttl=128 time=0.648 ms
+64 bytes from 192.168.0.20: icmp_req=84 ttl=128 time=1.03 ms
+64 bytes from 192.168.0.20: icmp_req=85 ttl=128 time=0.640 ms
+64 bytes from 192.168.0.20: icmp_req=86 ttl=128 time=0.635 ms
+64 bytes from 192.168.0.20: icmp_req=87 ttl=128 time=0.657 ms
+64 bytes from 192.168.0.20: icmp_req=88 ttl=128 time=0.649 ms
+64 bytes from 192.168.0.20: icmp_req=89 ttl=128 time=0.636 ms
+64 bytes from 192.168.0.20: icmp_req=90 ttl=128 time=0.640 ms
+64 bytes from 192.168.0.20: icmp_req=91 ttl=128 time=0.644 ms
+64 bytes from 192.168.0.20: icmp_req=92 ttl=128 time=0.635 ms
+64 bytes from 192.168.0.20: icmp_req=93 ttl=128 time=0.633 ms
+64 bytes from 192.168.0.20: icmp_req=94 ttl=128 time=0.659 ms
+64 bytes from 192.168.0.20: icmp_req=95 ttl=128 time=0.656 ms
+64 bytes from 192.168.0.20: icmp_req=96 ttl=128 time=0.635 ms
+64 bytes from 192.168.0.20: icmp_req=97 ttl=128 time=0.641 ms
+64 bytes from 192.168.0.20: icmp_req=98 ttl=128 time=0.634 ms
+64 bytes from 192.168.0.20: icmp_req=99 ttl=128 time=0.637 ms
+64 bytes from 192.168.0.20: icmp_req=100 ttl=128 time=0.632 ms
+^Z
+[1]+  Stopped                 ping 192.168.0.20
+]0;s4c1@lab2-AcerPower-Series: ~/3101/t3&t5s4c1@lab2-AcerPower-Series:~/3101/t3&t5$ cat etc/e[Kreso[Kolv.cat[K[K[Kconf
+cat: etc/resolv.conf: No such file or directory
+]0;s4c1@lab2-AcerPower-Series: ~/3101/t3&t5s4c1@lab2-AcerPower-Series:~/3101/t3&t5$ cat etc/resolv.conf/etc/resolv.conf
+# Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
+#     DO NOT EDIT THIS FILE BY HAND -- YOUR CHANGES WILL BE OVERWRITTEN
+nameserver 127.0.0.1
+search example.org
+]0;s4c1@lab2-AcerPower-Series: ~/3101/t3&t5s4c1@lab2-AcerPower-Series:~/3101/t3&t5$ 
+[K]0;s4c1@lab2-AcerPower-Series: ~/3101/t3&t5s4c1@lab2-AcerPower-Series:~/3101/t3&t5$ exit
+exit
+There are stopped jobs.
+]0;s4c1@lab2-AcerPower-Series: ~/3101/t3&t5s4c1@lab2-AcerPower-Series:~/3101/t3&t5$ exit
+exit
+
+Script done on Friday 31 January 2020 11:47:50 AM IST
