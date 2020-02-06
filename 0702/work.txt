@@ -1,0 +1,16 @@
+Script started on Thursday 06 February 2020 11:33:08 AM IST
+]0;s4c1@lab2-AcerPower-Series: ~/0702s4c1@lab2-AcerPower-Series:~/0702$ exit./script.shchmod +x script.shd s1[K
+]0;s4c1@lab2-AcerPower-Series: ~/0702/s1s4c1@lab2-AcerPower-Series:~/0702/s1$ cd s1[1Pexit./script.shchmod +x script.shd s1[K0702hmod +x script.shexit[K[K[K[K[Kchmod s1[K[K+x s1[K[Kscript.sh
+]0;s4c1@lab2-AcerPower-Series: ~/0702/s1s4c1@lab2-AcerPower-Series:~/0702/s1$ chmod +x script.shd s1[K[1Pexit./script.shchmod +x script.shd s1[Khmod +x script.sh[7P./script.sh
+[H[2J]0;s4c1@lab2-AcerPower-Series: ~/0702/s1s4c1@lab2-AcerPower-Series:~/0702/s1$ cd ..
+]0;s4c1@lab2-AcerPower-Series: ~/0702s4c1@lab2-AcerPower-Series:~/0702$ cd ..[K[K[K[K[Kcd s2
+]0;s4c1@lab2-AcerPower-Series: ~/0702/s2s4c1@lab2-AcerPower-Series:~/0702/s2$ ls
+result_CHN.pdf  [0m[01;32mscript.sh[0m  student.txt
+]0;s4c1@lab2-AcerPower-Series: ~/0702/s2s4c1@lab2-AcerPower-Series:~/0702/s2$ chmod s[K+x script.sh
+]0;s4c1@lab2-AcerPower-Series: ~/0702/s2s4c1@lab2-AcerPower-Series:~/0702/s2$ ./sc[Kx[K[Kscript.sh
+[H[2J]0;s4c1@lab2-AcerPower-Series: ~/0702/s2s4c1@lab2-AcerPower-Series:~/0702/s2$ ./script.shchmod +x script.sh
+]0;s4c1@lab2-AcerPower-Series: ~/0702/s2s4c1@lab2-AcerPower-Series:~/0702/s2$ chmod +x script.sh[7P./script.sh
+[H[2J]0;s4c1@lab2-AcerPower-Series: ~/0702/s2s4c1@lab2-AcerPower-Series:~/0702/s2$ exit
+exit
+
+Script done on Thursday 06 February 2020 11:36:18 AM IST

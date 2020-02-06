@@ -1,0 +1,32 @@
+CEC CS 18 C05 07-02-2020
+Aju George Jacob
+
+--------------------------------
+#1: SCRIPTING TASK (t2)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	script.sh
+
+Input: 
+---------------
+1)	result_CHN.pdf - Semester result of student
+
+2)	students.txt - Student list with corresponding KTU reg.no
+
+
+--------------------------------
+Output: 
+
+	cgpa.txt
+
+
+-------------------
+Remarks if any:
+
+
+
+
+-------------------------------------
