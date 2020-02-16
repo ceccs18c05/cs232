@@ -1,27 +1,12 @@
 #!/bin/bash
 
-# Clears current screen
-
-clear
-
-# Coverts .pdf to .txt
-
 pdftotext -layout result_CHN.pdf result_CHN.txt
-
-# Separates out results of CS students
-
 grep --no-group-separator -A3 "CHN18CS" result_CHN.txt > result_cs.txt
-
-# Cleans up and arranges the data in organised manner
-
 tr  '\n' ' ' < result_cs.txt > result_cs1.txt
 sed 's/\t//g' result_cs1.txt > result_cs2.txt
 awk '{$1=$1;print}' result_cs2.txt > result_cs3.txt
 sed 's/CHN/\nCHN/g' result_cs3.txt > result_cs4.txt
 tr  ',' ' ' < result_cs4.txt > result.txt
-
-# Convert Grades to Grade Points 
-
 sed -i 's/(O)/ 10/g' result.txt
 sed -i 's/(A+)/ 9/g' result.txt
 sed -i 's/(A)/ 8.5/g' result.txt
@@ -33,27 +18,21 @@ sed -i 's/(F)/ 0/g' result.txt
 sed -i 's/(FE)/ 0/g' result.txt
 sed -i 's/(I)/ 0/g' result.txt
 sed -i 's/(Absent)/ 0/g' result.txt
-
-# Seperates gradepoints 
-
 awk  '{  
 	print $1,$3,$5,$7,$9,$11,$13,$15,$17,$19
  }' result.txt > gp.txt 
-
-# Computes CGPA and counts subjects failed in
-
 awk '{
 	sum = 0
 	flag = 0
 	fails = 0
-	for(var =2; var<=NF; var++)
+	for(i =2; i<=NF; i++)
 	{	
-		if($var == 0) 
+		if($i == 0) 
 		{
 			flag = 1
 			fails = fails + 1
 		}
-		sum += $var
+		sum += $i
 	}
 	cgpa = sum/9
 	if (flag == 0) {	
@@ -63,8 +42,4 @@ awk '{
 		printf("%s failed in %d\n",$1,fails)
 	}
 }' gp.txt > cgpa_raw.txt
-
-
-
-# adds name and roll no
 join student.txt cgpa_raw.txt > cgpa.txt

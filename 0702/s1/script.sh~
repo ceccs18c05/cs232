@@ -7,12 +7,10 @@ clear
 # Coverts .pdf to .txt
 
 pdftotext -layout result_CHN.pdf result_CHN.txt
-pdftotext -layout s4c.pdf students.txt
 
 # Separates out results of CS students
 
 grep --no-group-separator -A3 "CHN18CS" result_CHN.txt > result_cs.txt
-grep --no-group-separator -A3 "CS 18 C" students.txt > students1.txt
 
 # Cleans up and arranges the data in organised manner
 
@@ -21,9 +19,6 @@ sed 's/\t//g' result_cs1.txt > result_cs2.txt
 awk '{$1=$1;print}' result_cs2.txt > result_cs3.txt
 sed 's/CHN/\nCHN/g' result_cs3.txt > result_cs4.txt
 tr  ',' ' ' < result_cs4.txt > result.txt
-sed 's/\t//g' students1.txt > students2.txt
-awk  '{print $3,$4,$5,$6,$7}' students2.txt > students3.txt
-tr  '01/18 CS' 'CS' < student3.txt > student4.txt
 
 # Convert Grades to Grade Points 
 
@@ -51,14 +46,14 @@ awk '{
 	sum = 0
 	flag = 0
 	fails = 0
-	for(var =2; var<=NF; var++)
+	for(i =2; i<=NF; i++)
 	{	
-		if($var == 0) 
+		if($i == 0) 
 		{
 			flag = 1
 			fails = fails + 1
 		}
-		sum += $var
+		sum += $i
 	}
 	cgpa = sum/9
 	if (flag == 0) {	
@@ -72,4 +67,4 @@ awk '{
 
 
 # adds name and roll no
-join students3.txt cgpa_raw.txt > cgpa.txt
+join student.txt cgpa_raw.txt > cgpa.txt
