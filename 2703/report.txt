@@ -1,0 +1,60 @@
+CEC CS 18 005
+Aju George Jacob
+
+--------------------------------
+#1: Aim/task 
+--------------------------------
+t7 - Setting up FTP server
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+sudo apt-get install vsftpd - used to install vsftpd
+sudo nano /etc/vsftpd.conf - used to configure the permissions for the FTP
+ftp localhost - used to create an FTP in the local system
+
+-------------------
+Input: (If relevant)
+-------------------
+
+-------------------------------------
+Output: or Input & Output (whichever is applicable)
+-------------------------------------
+
+
+-------------------
+Remarks if any:
+-------------------
+
+
+
+---------------------------------
+---------------------------------
+
+--------------------------------
+#2: Aim/task 
+--------------------------------
+t7 - Setting up HTTP server
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+sudo apt-get install apache2 - used to install apache2
+sudo nano /var/www/html/index.html - used to edit the localhost html file
+
+-------------------
+Input: (If relevant)
+-------------------
+
+-------------------------------------
+Output: or Input & Output (whichever is applicable)
+-------------------------------------
+Screenshot.png
+
+-------------------
+Remarks if any:
+-------------------
+
+
+
+---------------------------------
+---------------------------------
+

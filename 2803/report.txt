@@ -1,0 +1,96 @@
+CEC CS 18 005
+Aju George Jacob
+
+--------------------------------
+#1: Aim/task 
+--------------------------------
+t8 - 1. Package Management
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+sudo apt-get install cherrytree - Used to install a package named cherrytree
+sudo apt remove cherrytree - Used to remove a package named cherrytree
+sudo apt update - Used to update the local package index with the latest changes made in the repositories
+sudo apt upgrade - Used to install the updated version of packages installed 
+dpkg -l - Used to list all packages installed on the system
+dpkg -l | grep vsftpd - Used to check whether vsftpd is installed
+dpkg -L apache2 - Used to list the files installed by the apache2
+sudo apt list > packages.txt - To list all the installed packages in a text file
+-------------------
+Input: (If relevant)
+-------------------
+
+-------------------------------------
+Output: or Input & Output (whichever is applicable)
+-------------------------------------
+
+
+-------------------
+Remarks if any:
+-------------------
+packages.txt -size 3.6 MB (Uploaded in GitHub)
+
+
+---------------------------------
+---------------------------------
+
+--------------------------------
+#2: Aim/task 
+--------------------------------
+t8 - 2. Perl
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+sudo apt-get install perl - Used to install perl (Already came with ubuntu)
+nano test.pl - Used to edit a perl script using nano
+perl -e - Used to execute perl commands in the terminal
+perl test.pl - Used to execute a perl script named test.pl in the terminal
+-------------------
+Program Name
+-------------------
+1. hello-world.pl (To print HELLO WORLD)
+
+2. Fibonacci.pl (To print fibonacci numbers to a certain limit)
+		
+3. palindrome.pl (To check palindrome or not)
+
+4. arrev.pl (To reverse the array)
+
+-------------------------------------
+Output: or Input & Output (whichever is applicable)
+-------------------------------------
+1. HELLO WORLD
+
+2. Upper Limit: 5
+   Fibonacci:
+   0
+   1
+   1
+   2
+   3
+		
+3. Enter a number: 1234321
+   The number is a palindrome
+
+4. Enter the number of elements:
+   5
+   Enter the values in array:
+   2 
+   4
+   6
+   8
+   10
+   The original array is : 
+   2   4   6   8   10   
+   The reversed array is : 
+      10   8   6   4   2   
+
+-------------------
+Remarks if any:
+-------------------
+
+
+
+---------------------------------
+---------------------------------
+

@@ -1,0 +1,32 @@
+CEC CS 18 005
+Aju George Jacob
+
+
+--------------------------------
+#1: Aim/task:
+---------------------------------
+	 Linux installation (t6)
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+       
+       Ubuntu installation using bootable USB 
+
+--------------------------------
+Output: 
+--------------------------------
+
+       1. All images with name (1-7).jpg show the installation process
+       
+       2. Image 8.jpeg show the system details.
+
+
+-------------------
+Remarks if any:
+-------------------
+	Ubuntu is installed alongside Windows (Version Ubuntu 18.04.4 LTS)
+
+-------------------------------------
+-------------------------------------
+
+

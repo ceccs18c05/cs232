@@ -1,0 +1,98 @@
+CEC CS 18 005
+Aju George Jacob
+
+--------------------------------
+#1: Aim/task
+---------------------------------
+t8 - 3. LAMP Stack (t8.3)
+---------------------------------
+Command/Shell script/Program name: 
+---------------------------------
+     LAMP Stack - Linux Apache MySQL PHP Stack
+	
+	Installing Apache2
+		sudo apt-get install apache2 - install apache2
+		apache2 -v  - Version of apache2
+		sudo ufw app list
+	Install MySQL
+		sudo apt-get install mysql-server
+	Install PHP
+		sudo apt-get install php libapache2-mod-php php-mysql - To install PHP
+		sudo nano /var/www/html/info.php - 
+		sudo nano /var/www/html/index.php - 
+
+--------------------------------
+Input:
+--------------------------------
+
+------------------------------------
+Output: 
+------------------------------------
+     
+	info.jpg - Image of info.php at localhost/info.php
+	index.jpg - Image of index.php at localhost/index.php
+	
+
+--------------------------------
+-------------------
+Remarks if any:
+-------------------
+	
+	
+
+---------------------------------
+---------------------------------
+
+--------------------------------
+#2: Aim/task 
+---------------------------------
+t8 - 4. Kernel Compilation
+---------------------------------
+Command/Shell script/Program name: 
+---------------------------------
+
+	 wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.5.13.tar.xz
+			- Download the latest stable kernel 
+
+	 unxz -v linux-5.5.13.tar.xz - Extract the source code
+
+         wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.5.13.tar.sign
+			- Obtain PGP Signature for the kernel
+
+         gpg --verify linux-5.5.13.tar.sign - Verify the PGP Signature
+
+	 tar xvf linux-5.5.13.tar - Extract linux tarball
+
+         cd linux-5.5.13
+         cp -v /boot/config-$(uname -r) .config
+			- Create the configuration file
+
+         sudo apt-get install build-essential libncurses-dev bison flex libssl-dev libelf-dev
+			- Install the various development tools
+
+	 make -j $(nproc) - Compile the kernel
+
+
+--------------------------------
+Input:
+--------------------------------
+
+------------------------------------
+Output: 
+------------------------------------
+     
+	image.jpg - Image of the compiled kernel
+	
+
+--------------------------------
+-------------------
+Remarks if any:
+-------------------
+	
+	
+
+---------------------------------
+---------------------------------
+
+
+
