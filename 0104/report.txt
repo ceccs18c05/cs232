@@ -1,0 +1,48 @@
+CEC CS 18 C05 07-02-2020
+Aju George Jacob
+
+---------------------------------
+#2: Aim/task: 
+---------------------------------
+t8 -4. Kernel compilation
+---------------------------------
+Command/Shell script/Program name:
+---------------------------------
+ 
+	wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.6.tar.xz 
+
+        unxz -v linux-5.6.tar.xz - Extract the source code
+
+	wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.6.tar.sign
+	 	- Obtain PGP Signature for the kernel
+
+        gpg --verify linux-5.6.tar.sign 
+		- Verify the PGP Signature
+
+	tar xvf linux-5.6.tar
+		- Extract linux tarball
+
+        cd linux-5.6
+        cp -v /boot/config-$(uname -r) .config
+		- Create the configuration file
+
+        sudo apt-get install build-essential libncurses-dev bison flex libssl-dev libelf-dev
+		- Install the various development tools
+
+        make -j $(nproc) - Compile the kernel
+
+-------------------------------
+Output: 
+-------------------------------
+
+        image.png - Screenshot of the list of files in the kernel
+	list.txt - list of the content of linux-5.6	
+              
+-------------------
+Remarks if any:
+-------------------
+
+
+
+
+-------------------------------------
