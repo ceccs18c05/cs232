@@ -10,10 +10,11 @@ read b
 while [ $i = "y" ]
 do
 echo -e "\n-----MENU-----"
-echo " 1.Addition"
-echo " 2.Subtraction"
-echo " 3.Multiplication"
-echo " 4.Division"
+echo "1.Addition"
+echo "2.Subtraction"
+echo "3.Multiplication"
+echo "4.Division (Quotient)"
+echo "5.Remainder"
 echo " Enter your choice:"
 read choice
 case $choice in 
@@ -25,6 +26,8 @@ case $choice in
          echo "Multiplication = "$n;;
        4)n=`expr $a / $b`
          echo "Division (Quotient) = "$n;;
+       5)n=`expr $a % $b`
+         echo "Remainder = "$n;;
        *)echo "Wrong Choice";;
 esac
 echo "Do you want to continue?"
