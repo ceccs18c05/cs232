@@ -1,23 +1,23 @@
-echo "Logged user and his username"
+echo "\nLogged user and his username"
 who -H
-echo "Username: " && who | cut -d' ' -f1 | sort | uniq
+echo "\nUsername: " && who | cut -d' ' -f1 | sort | uniq
 echo
-echo "Current Shell"
+echo "\nCurrent Shell"
 echo $SHELL
 echo
-echo "Home directory"
+echo "\nHome directory"
 echo $HOME
 echo
-echo "Operating System type"
+echo "\nOperating System type"
 hostnamectl
 uname -o
 echo
-echo "Current path setting"
+echo "\nCurrent path setting"
 echo $PATH
 echo
-echo "Current working directory"
+echo "\nCurrent working directory"
 pwd
 echo
-echo "Number of Users logged in"
+echo "\nNumber of Users logged in"
 who | wc -l
 
