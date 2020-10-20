@@ -1,19 +1,19 @@
 echo "OS"
 lsb_release -a
-echo "Kernel Version"
+echo "\nKernel Version"
 uname -r
 echo
-echo "Available Shells"
+echo "\nAvailable Shells"
 cat /etc/shells
 echo
-echo "CPU information"
+echo "\nCPU information"
 cat /proc/cpuinfo
 echo
-echo "Memory information"
+echo "\nMemory information"
 cat /proc/meminfo
 echo
-echo "Hard Disk information"
+echo "\nHard Disk information"
 lshw -class disk -class storage
 echo
-echo "File system"
+echo "\nFile system"
 sudo fdisk -l
